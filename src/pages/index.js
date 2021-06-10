@@ -1,14 +1,14 @@
-import * as React from "react"
-import { Example } from '../components';
+import * as React from "react";
+import { Container } from '@material-ui/core';
+import { Example, Layout } from '../components';
 
-const Home = () => {
-  return (
-    <main>
-      <title>Home Page</title>
-      <p>This is the home page of the colorado cherry company wahoo!</p>
+const IndexPage = () => (
+  <Layout>
+    <Container>
       <Example />
-    </main>
-  )
-}
+    </Container>
+  </Layout>
+);
 
-export default Home;
+export default IndexPage;
+
