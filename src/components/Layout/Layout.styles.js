@@ -2,17 +2,26 @@ import { css } from '@emotion/react';
 
 const styles = css`
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
   line-height: 1.4;
 }
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 section {
