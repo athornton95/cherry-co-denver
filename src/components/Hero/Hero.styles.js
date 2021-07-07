@@ -47,7 +47,7 @@ const styles = () => css`
   .hero-scroll {
     position: absolute;
     color: white;
-    bottom: 2rem;
+    bottom: 3rem;
   }
 
   .bounce {
@@ -56,29 +56,22 @@ const styles = () => css`
     animation: bounce 2s infinite;
   }
 
-  .down-caret {
+  .down-caret,
+  .down-caret:before {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    // top: 50%;
+    left: 50%;
+  }
+
+  .down-caret {
+    width: 30px;
+    height: 30px;
+    top: 50%;
     margin: -20px 0 0 -20px;
     -webkit-transform: rotate(45deg);
     border-left: none;
-    border-top: none
+    border-top: none;
     border-right: 2px #fff solid;
     border-bottom: 2px #fff solid;
-  }
-
-  .down-caret:before {
-    content: '';
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    margin: -10px 0 0 -10px;
-    border-left: none;
-    border-top: none;
-    border-right: 1px #fff solid;
-    border-bottom: 1px #fff solid;
   }
 
   @keyframes bounce {
@@ -86,10 +79,10 @@ const styles = () => css`
       transform: translateY(0);
     }
     40% {
-      transform: translateY(-30px);
+      transform: translateY(-20px);
     }
     60% {
-      transform: translateY(-15px);
+      transform: translateY(-10px);
     }
   }
 `;
