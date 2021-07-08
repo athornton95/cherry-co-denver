@@ -1,9 +1,10 @@
 import * as React from "react";
 import { Container } from '@material-ui/core';
-import { About, Hero, Layout } from '../components';
+import { About, Hero, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <Layout>
+    <Navigation/>
     <Hero/>
     <Container>
       <About/>

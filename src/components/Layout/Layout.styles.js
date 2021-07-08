@@ -32,6 +32,28 @@ hr {
   background-color: #EEF0F7;
 }
 
+.btn {
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-white {
+  color: #fff;
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid #fff;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+.btn-white:hover {
+  color: #CF2634;
+  background-color: white;
+  border: 1px solid #CF2634;
+  text-shadow: none;
+}
+
 .title {
   font-size: 28px;
   font-weight: 600;
