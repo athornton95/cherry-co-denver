@@ -1,13 +1,11 @@
 import { css } from '@emotion/react';
 
 const styles = () => css`
-  text-align: center;
-  margin-top: 4rem;
-  
-  .logo {
+  .image {
     img {
-      height: 8rem;
-      width: auto;
+      margin: 2rem;
+      width: 100%;
+      border-radius: 50%;
     }
   }
 `;

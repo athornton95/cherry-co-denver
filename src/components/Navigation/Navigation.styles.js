@@ -9,15 +9,6 @@ const styles = () => css`
     box-shadow: none;
     padding: 0 2rem;
     color: white;
-    // color: #CF2634;
-    // text-shadow:
-    //     0 0 1px #CF2634,
-    //     0 0 7px #fff,
-    //     0 0 10px #fff,
-    //     0 0 21px #fff,
-    //     0 0 42px #CF2634,
-    //     0 0 82px #CF2634,
-    //     0 0 92px #CF2634;
     display: flex;
   }
 
