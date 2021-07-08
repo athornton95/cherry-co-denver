@@ -2,7 +2,6 @@ import { css } from '@emotion/react';
 
 const styles = () => css`
   position: sticky;
-  top: 0;
   z-index: 50;
 
   .nav-container {

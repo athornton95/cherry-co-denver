@@ -16,6 +16,9 @@ const Navigation = () => {
               Our Story
             </p>
             <p className='nav-link'>
+              Menu
+            </p>
+            <p className='nav-link'>
               Contact
             </p>
             <a color="inherit" className='btn btn-white'>Order Locally</a>

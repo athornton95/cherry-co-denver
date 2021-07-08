@@ -4,11 +4,13 @@ import { About, Hero, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <Layout>
-    <Navigation/>
     <Hero/>
-    <Container>
-      <About/>
-    </Container>
+    <div>
+      <Navigation/>
+      <Container>
+        <About/>
+      </Container>
+    </div>
   </Layout>
 );
 
