@@ -25,7 +25,7 @@ const styles = () => css`
 
   .image {
     img {
-      margin: 2rem;
+      margin: 0 2rem;
       width: 100%;
       border-radius: 50%;
     }

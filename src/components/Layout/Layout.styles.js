@@ -30,6 +30,7 @@ hr {
   border: 0;
   height: 1px;
   background-color: #EEF0F7;
+  margin-bottom: 2rem;
 }
 
 .btn {

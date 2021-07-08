@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section css={styles}>
       <div className='section-header'>
-        <h3 className='section-title'>Our Story</h3>
-        <p className='section-description'>Overview description text blah blah lorem ipsum yada yada.</p>
+        <h3 className='title'>Our Story</h3>
+        <p className='description'>Overview description text blah blah lorem ipsum yada yada.</p>
       </div>
-      <hr />
+      <hr/>
       <SideBySide
         position="image-left"
         image={
@@ -27,7 +27,7 @@ const About = () => {
         text={"Bonbon cheesecake cake tootsie roll chocolate.Cupcake carrot cake marzipan. Chocolate gingerbread lemon drops sweet roll oat cake brownie cake pastry bonbon. Dragée pudding caramels apple pie chocolate. Cake gingerbread chupa chups chocolate caramels bonbon tart apple pie sugar plum. Brownie carrot cake halvah lollipop jujubes sweet roll pie cotton candy jujubes."}
         image={
           {
-            src: "./example-1.jpeg",
+            src: "./example-2.jpeg",
             alt: "Example Image"
           }
         }
