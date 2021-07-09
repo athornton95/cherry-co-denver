@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EEE;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -40,18 +41,17 @@ hr {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-white {
-  color: #fff;
-  background-color: rgba(0,0,0,.2);
-  border: 1px solid #fff;
-  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  color: #CF2634;
+  border: 1px solid #CF2634;
 }
 
 .btn-white:hover {
-  color: #CF2634;
-  background-color: white;
+  color: #fff;
+  background-color: #CF2634;
   border: 1px solid #CF2634;
   text-shadow: none;
 }

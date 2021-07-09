@@ -12,15 +12,12 @@ const Navigation = () => {
             <img src='/cherry-co-logo-badge.png' alt='' />
           </div>
           <div className='nav-links'>
-            <p className='nav-link'>
-              Our Story
-            </p>
-            <p className='nav-link'>
+            <a className='nav-link' href="#">
               Menu
-            </p>
-            <p className='nav-link'>
+            </a>
+            <a className='nav-link' href="#">
               Contact
-            </p>
+            </a>
             <a color="inherit" className='btn btn-white'>Order Locally</a>
           </div>
         </div>

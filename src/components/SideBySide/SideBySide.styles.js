@@ -4,7 +4,7 @@ const styles = () => css`
   text-align: left;
 
   .content {
-    padding: 4rem 0;
+    padding: 1rem 0;
 
     .title {
       color: #CF2634;
@@ -17,17 +17,27 @@ const styles = () => css`
   }
 
   .text-right {
-    padding-right: 2rem;
+    @media (min-width: 600px) {
+      padding-right: 2rem;
+    }
   }
   .text-left {
-    padding-left: 2rem;
+    @media (min-width: 600px) {
+      padding-left: 2rem;
+    }
   }
 
   .image {
+    display: flex;
+    justify-content: center;
     img {
-      margin: 0 2rem;
-      width: 100%;
+      width: 70%;
       border-radius: 50%;
+
+      @media (min-width: 600px) {
+        width: 80%;
+        margin: 0 2rem;
+      }
     }
   }
 `;

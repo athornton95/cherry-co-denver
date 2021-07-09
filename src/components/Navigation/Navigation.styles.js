@@ -11,7 +11,6 @@ const styles = () => css`
   .nav-container {
     box-shadow: none;
     padding: 0 2rem;
-    color: white;
   }
 
   .nav {
@@ -28,7 +27,8 @@ const styles = () => css`
     font-size: 1rem;
     align-self: center;
     margin: 0 1rem;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: #CF2634;
   }
 
   .btn {
