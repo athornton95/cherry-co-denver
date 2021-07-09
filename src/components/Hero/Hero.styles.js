@@ -36,9 +36,10 @@ const styles = () => css`
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
-        0 0 42px #CF2634,
+        0 0 30px #CF2634,
         0 0 82px #CF2634,
         0 0 92px #CF2634;
+      animation: glow 5s infinite;
       position: relative;
       z-index: 10;
 
@@ -81,6 +82,31 @@ const styles = () => css`
     border-right: 2px #fff solid;
     border-bottom: 2px #fff solid;
   }
+
+  @keyframes glow {
+    0%, 100% {
+      text-shadow:
+        0 0 1px #fff,
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #CF2634,
+        0 0 42px #CF2634,
+        0 0 82px #CF2634,
+        0 0 92px #CF2634;
+    }
+    50% {
+      text-shadow:
+        0 0 1px #CF2634,
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #CF2634,
+        0 0 82px #CF2634,
+        0 0 92px #CF2634;
+    }
+  }
+    
+
 
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
