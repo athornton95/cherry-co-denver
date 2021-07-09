@@ -18,14 +18,18 @@ const styles = () => css`
   }
 
   .hero-title {
-    padding: 0 4rem;
+    padding: 0 1rem;
     text-align: center;
     color: #CF2634;
     position: relative;
 
+    @media (min-width: 600px) {
+      padding: 0 4rem;
+    }
+
     h3 {
       font-family: "voltage", sans-serif;
-      font-size: 7rem;
+      font-size: 4rem;
       font-weight: bold;
       text-shadow:
         0 0 1px #CF2634,
@@ -37,6 +41,10 @@ const styles = () => css`
         0 0 92px #CF2634;
       position: relative;
       z-index: 10;
+
+      @media (min-width: 600px) {
+        font-size: 7rem;
+      }
     }
 
     h3.line-two {

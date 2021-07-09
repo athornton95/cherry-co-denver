@@ -1,6 +1,9 @@
 import { css } from '@emotion/react';
 
 const styles = () => css`
+  @media (max-width: 600px) {
+    display: none;
+  }
   position: sticky;
   top: 0;
   z-index: 50;

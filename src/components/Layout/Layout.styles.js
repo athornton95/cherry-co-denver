@@ -24,8 +24,8 @@ body {
 }
 
 section {
-  margin-top: 48px;
-  margin-bottom: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 hr {
