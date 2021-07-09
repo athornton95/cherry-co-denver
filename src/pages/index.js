@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container } from '@material-ui/core';
-import { About, CTABanner, Hero, Layout, Navigation } from '../components';
+import { About, CTABanner, Footer, Hero, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +12,7 @@ const IndexPage = () => (
         <About/>
       </Container>
     </div>
+    <Footer />
   </Layout>
 );
 

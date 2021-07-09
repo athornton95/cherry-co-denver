@@ -4,7 +4,7 @@ import styles from './Navigation.styles';
 const Navigation = () => {
 
   return (
-    <div css={styles}>
+    <div css={styles} id="nav">
       <div className='nav-container'>
         <div className='nav'>
           <div className='logo'>

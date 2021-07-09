@@ -17,7 +17,7 @@ const Hero = () => (
         <h3 className='line-two'>Eat Pie</h3>
       </div>
       <div className='hero-scroll bounce'>
-        <a href="#about">
+        <a href="#nav">
           <div className='down-caret' />
         </a>
       </div>

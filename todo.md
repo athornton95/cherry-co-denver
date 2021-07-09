@@ -8,9 +8,9 @@
   [ ] - Order now modal ('for tennyson street shop pick up only? cool? to toast, cancel closes model')
   [x] - Fix stickiness
 [ ] - CTA Banner
-  [ ] - Appears 40% of the way down the site
+  [x] - Appears ~40% (adjust for breakpoints) of the way down the site
   [ ] - Order for instore pickup button
-  [ ] - sign up for newsletter form 
+  [ ] - sign up for newsletter form (?)
 [ ] - Hero 
   [x] - General design/layout
   [x] - Add <a> to bouncing caret
@@ -21,6 +21,10 @@
 [ ] - Menu 
 [ ] - Services 
 [ ] - Contact Us Card
+[ ] - Footer
+  [ ] - Logo
+  [ ] - Restaurant info
+  [ ] - Copyright Info (Alexandra Thornton 2021)
 
 ### STYLES
 

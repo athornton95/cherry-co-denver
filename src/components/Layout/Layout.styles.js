@@ -29,10 +29,6 @@ body {
   position: relative;
 }
 
-.content-body {
-  padding-bottom: 6rem;
-}
-
 section {
   padding-top: 48px;
   padding-bottom: 48px;

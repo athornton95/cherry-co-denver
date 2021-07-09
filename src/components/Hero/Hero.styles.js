@@ -39,7 +39,7 @@ const styles = () => css`
         0 0 30px #CF2634,
         0 0 82px #CF2634,
         0 0 92px #CF2634;
-      animation: glow 5s infinite;
+      animation: glow 4s infinite;
       position: relative;
       z-index: 10;
 

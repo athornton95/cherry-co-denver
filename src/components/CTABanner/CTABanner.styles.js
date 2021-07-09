@@ -21,9 +21,11 @@ const styles = () => css`
     width: 100%;
     height: 6rem;
     color: #fff;
-    background: none;
-    background-color: black;
+    background: linear-gradient(270deg, rgba(185,0,11,1) 0%, rgba(207,38,48,1) 100%);
     max-height: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
     pointer-events: all;
     grid-template-areas: "img button button text wwf close";
   }
