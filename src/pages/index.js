@@ -1,11 +1,12 @@
 import * as React from "react";
 import { Container } from '@material-ui/core';
-import { About, Hero, Layout, Navigation } from '../components';
+import { About, CTABanner, Hero, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <Layout>
+    <CTABanner/>
     <Hero/>
-    <div>
+    <div className='content-body'>
       <Navigation/>
       <Container maxWidth='md'>
         <About/>

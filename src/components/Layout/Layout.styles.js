@@ -9,10 +9,15 @@ const styles = css`
   font-family: "Proxima Nova", helvetica, sans-serif;
 }
 
+.main {
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 body {
@@ -21,6 +26,11 @@ body {
   padding: 0;
   background-color: #EEE;
   scroll-behavior: smooth;
+  position: relative;
+}
+
+.content-body {
+  padding-bottom: 6rem;
 }
 
 section {

@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Global styles={styles} />
-      <main>
+      <main className='main'>
         {children}
       </main>
     </>
