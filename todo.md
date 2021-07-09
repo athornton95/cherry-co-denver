@@ -3,15 +3,15 @@
 
 [ ] - Navigation
   [x] - Cherry CO Logo
-  [ ] - Navigable Anchors
+  [x] - Navigable Anchors
   [ ] - Order Now Button
-  [ ] - Order now modal ('for tennyson street shop pick up only? cool? to toast, cancel closes model')
+    [ ] - Order now modal ('for tennyson street shop pick up only? cool? to toast, cancel closes model')
   [x] - Fix stickiness
 [ ] - CTA Banner
   [x] - Appears ~40% (adjust for breakpoints) of the way down the site
   [ ] - Order for instore pickup button
   [ ] - sign up for newsletter form (?)
-[ ] - Hero 
+[x] - Hero 
   [x] - General design/layout
   [x] - Add <a> to bouncing caret
   [x] - glow animation for "Share Joy Eat Pie"
@@ -19,12 +19,16 @@
 [ ] - Side by Side
   [ ] - Mobile 'order'
 [ ] - Menu 
-[ ] - Services 
-[ ] - Contact Us Card
-[ ] - Footer
-  [ ] - Logo
-  [ ] - Restaurant info
-  [ ] - Copyright Info (Alexandra Thornton 2021)
+[ ] - Services
+  [ ] - Service
+    [ ] - Title
+    [ ] - Description
+    [ ] - icon ?
+  [ ] - Contact Us Button (opens an email)
+[x] - Footer
+  [x] - Logo
+  [x] - Restaurant info
+  [x] - Copyright Info (Alexandra Thornton 2021)
 
 ### STYLES
 

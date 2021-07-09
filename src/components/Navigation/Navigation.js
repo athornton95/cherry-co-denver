@@ -15,7 +15,10 @@ const Navigation = () => {
               Menu
             </a>
             <a className='nav-link' href="#">
-              Contact
+              Events
+            </a>
+            <a className='nav-link' href="#">
+              Contact Us
             </a>
             <a color="inherit" className='btn btn-white'>Order Locally</a>
           </div>
