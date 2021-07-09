@@ -8,23 +8,12 @@ const styles = () => css`
     margin-bottom: 2rem;
 
     .title {
-      font-size: 3rem;
+      font-size: 4rem;
       position: relative;
       font-weight: extra-bold;
+      font-family: "voltage", sans-serif;
       color: #000;
     }
-    
-    // .title:before {
-    //   z-index: -1;
-    //   content: "";
-    //   position: absolute;
-    //   top: 50%;
-    //   left: 50%;
-    //   transform: translate(-50%, -50%);
-    //   height: .75rem;
-    //   width: 25%;
-    //   background-color: #CECECF;
-    // }
   
     .description {
       font-size: 1.25rem;

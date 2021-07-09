@@ -19,6 +19,7 @@ body {
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #EEE;
 }
 
 section {
@@ -29,7 +30,7 @@ section {
 hr {
   border: 0;
   height: 1px;
-  background-color: #EEF0F7;
+  background-color: #DFDFDF;
   margin-bottom: 2rem;
 }
 

@@ -2,9 +2,10 @@
 ### COMPONENTS
 
 [ ] - Navigation
-  [ ] - Cherry CO Logo
+  [x] - Cherry CO Logo
   [ ] - Navigable Anchors
   [ ] - Order Now Button
+  [ ] - Fix stickiness
 [ ] - CTA Banner
   [ ] - Appears 40% of the way down the site
   [ ] - Order for instore pickup button

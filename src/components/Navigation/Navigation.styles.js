@@ -1,17 +1,17 @@
 import { css } from '@emotion/react';
 
 const styles = () => css`
+  position: sticky;
+  top: 0;
   z-index: 50;
-  position: relative;
+  background-color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 
   .nav-container {
     box-shadow: none;
     padding: 0 2rem;
     color: white;
-    display: flex;
-    position: sticky;
-    top: 0;
-
   }
 
   .nav {
@@ -22,7 +22,6 @@ const styles = () => css`
   .nav-links {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
   }
 
   .nav-link {

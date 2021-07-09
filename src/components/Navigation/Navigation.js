@@ -6,8 +6,8 @@ const Navigation = () => {
 
   return (
     <div css={styles}>
-      <AppBar color='transparent' className='nav-container'>
-        <Toolbar className='nav'>
+      <div className='nav-container'>
+        <div className='nav'>
           <div className='logo'>
             <img src='/cherry-co-logo-badge.png' alt='' />
           </div>
@@ -23,8 +23,8 @@ const Navigation = () => {
             </p>
             <a color="inherit" className='btn btn-white'>Order Locally</a>
           </div>
-        </Toolbar>
-      </AppBar>
+        </div>
+      </div>
     </div>
   );
 };

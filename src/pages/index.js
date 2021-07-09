@@ -7,7 +7,7 @@ const IndexPage = () => (
     <Hero/>
     <div>
       <Navigation/>
-      <Container>
+      <Container maxWidth='md'>
         <About/>
       </Container>
     </div>
