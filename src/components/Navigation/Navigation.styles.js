@@ -31,6 +31,10 @@ const styles = () => css`
     color: #CF2634;
   }
 
+  .nav-link:hover {
+    border-bottom: 1px solid #CF2634;
+  }
+
   .btn {
     margin-left: 1rem;
   }

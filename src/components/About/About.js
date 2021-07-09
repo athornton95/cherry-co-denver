@@ -6,10 +6,13 @@ const About = () => {
   return (
     <section css={styles} id="about">
       <div className='section-header'>
-        <h3 className='title'>Our Story</h3>
-        <p className='description'>Overview description text blah blah lorem ipsum yada yada.</p>
+        <h3 className='title'>Colorado Cherry Co.</h3>
+        <h3 className='sub-title'>Pie + Provisions</h3>
       </div>
       <hr/>
+      <div className='description'>
+        <p>Our story begins overview description text blah blah lorem ipsum yada yada.</p>
+      </div>
       <SideBySide
         position="image-left"
         image={

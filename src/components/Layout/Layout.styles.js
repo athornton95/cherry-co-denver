@@ -99,13 +99,13 @@ hr {
   color: #3B4472;
 }
 
-.description {
-  font-size: 16px;
-}
+// .description {
+//   font-size: 16px;
+// }
 
-.sub-description {
-  font-size: 14px;
-}
+// .sub-description {
+//   font-size: 14px;
+// }
 
 .button {
   display: flex;
