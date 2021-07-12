@@ -35,6 +35,17 @@ const About = () => {
           }
         }
       />
+      <SideBySide
+        position="image-right"
+        title={"2021"}
+        text={"Bonbon cheesecake cake tootsie roll chocolate.Cupcake carrot cake marzipan. Chocolate gingerbread lemon drops sweet roll oat cake brownie cake pastry bonbon. Dragée pudding caramels apple pie chocolate. Cake gingerbread chupa chups chocolate caramels bonbon tart apple pie sugar plum. Brownie carrot cake halvah lollipop jujubes sweet roll pie cotton candy jujubes."}
+        image={
+          {
+            src: "./example-2.jpeg",
+            alt: "Example Image"
+          }
+        }
+      />
     </section>
   );
 };

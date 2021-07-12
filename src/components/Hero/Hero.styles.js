@@ -65,6 +65,10 @@ const styles = () => css`
     animation: bounce 2s infinite;
   }
 
+  .bounce:hover {
+    animation: none;
+  }
+
   .down-caret,
   .down-caret:before {
     position: absolute;
@@ -113,10 +117,10 @@ const styles = () => css`
       transform: translateY(0);
     }
     40% {
-      transform: translateY(-20px);
+      transform: translateY(-15px);
     }
     60% {
-      transform: translateY(-10px);
+      transform: translateY(-8px);
     }
   }
 `;
