@@ -17,32 +17,32 @@ const About = () => {
         position="image-right"
         image={
           {
-            src: "./example-1.jpeg",
-            alt: "Example Image"
+            src: "./cc-1929.jpeg",
+            alt: "Grandmother and Grandfather Lehnert, 1929"
           }
         }
-        title={"1920"}
-        text={"Gummi bears ice cream cake powder toffee icing tiramisu gummi bears oat cake. Lollipop toffee candy gummies chupa chups. Topping biscuit pudding caramels topping topping. Pie tart danish bonbon. Chocolate bar cupcake cake tart cookie apple pie. Marzipan gummi bears cotton candy cake soufflé."}
+        title={"1929"}
+        text={"Great Grandma Katherine opens up fruit stand famous for pie and cherry cider outside of Lake Geneva Wisconsin."}
       />
       <SideBySide
         position="image-left"
-        title={"2021"}
-        text={"Bonbon cheesecake cake tootsie roll chocolate.Cupcake carrot cake marzipan. Chocolate gingerbread lemon drops sweet roll oat cake brownie cake pastry bonbon. Dragée pudding caramels apple pie chocolate. Cake gingerbread chupa chups chocolate caramels bonbon tart apple pie sugar plum. Brownie carrot cake halvah lollipop jujubes sweet roll pie cotton candy jujubes."}
+        title={"1950s"}
+        text={"Lehnert family moves to northern Colorado where region is known for tart cherries. Continue tradition of pie and cherry cider."}
         image={
           {
-            src: "./example-2.jpeg",
-            alt: "Example Image"
+            src: "./cc-1950.jpeg",
+            alt: "Colorado Cherry Co, 1950"
           }
         }
       />
       <SideBySide
         position="image-right"
         title={"2021"}
-        text={"Bonbon cheesecake cake tootsie roll chocolate.Cupcake carrot cake marzipan. Chocolate gingerbread lemon drops sweet roll oat cake brownie cake pastry bonbon. Dragée pudding caramels apple pie chocolate. Cake gingerbread chupa chups chocolate caramels bonbon tart apple pie sugar plum. Brownie carrot cake halvah lollipop jujubes sweet roll pie cotton candy jujubes."}
+        text={"3rd generation Lehnerts open shops by Estes Park and 4th generation opens in Denver on Tennyson St, March 2021."}
         image={
           {
-            src: "./example-2.jpeg",
-            alt: "Example Image"
+            src: "./cc-2021.jpeg",
+            alt: "Roo and Elias Lehnert, 2021"
           }
         }
       />

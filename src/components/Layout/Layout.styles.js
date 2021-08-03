@@ -82,6 +82,47 @@ hr {
   color: #1A2453;
 }
 
+.menu-container {
+  background-color: white;
+
+  .wave {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .wave-top::before,
+  .wave-top::after {
+    border-bottom: 5px solid white;
+  }
+
+  .wave-top::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    background-size: 20px 40px;
+    background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+  }
+  
+  .wave-top::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+  }
+
+  .wave-mid {
+    background-color: #EEE;
+    height: 50px;
+  }
+}
+
 .meta {
   font-size: 14px;
   line-height: 20px;

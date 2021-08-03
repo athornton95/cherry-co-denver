@@ -18,7 +18,7 @@ const SideBySide = (props) => {
             </Grid>
             <Grid item xs={12} sm={6} md={8}>
               <div className='content text-right'>
-                {text && <p><span class='title'>{title}</span>{text}</p>}
+                {text && <p><span className='title'>{title}</span>{text}</p>}
               </div>
             </Grid>
           </>
@@ -26,7 +26,7 @@ const SideBySide = (props) => {
           <>
           <Grid item xs={12} sm={6} md={8}>
             <div className='content text-left'>
-              {text && <p><span class='title'>{title}</span>{text}</p>}
+              {text && <p><span className='title'>{title}</span>{text}</p>}
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>

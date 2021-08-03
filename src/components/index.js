@@ -1,5 +1,6 @@
 export { default as About } from './About/About';
 export { default as CTABanner } from './CTABanner/CTABanner';
+export { default as Menu } from './Menu/Menu';
 export { default as Example } from './Example/Example';
 export { default as Footer } from './Footer/Footer';
 export { default as Hero } from './Hero/Hero';
