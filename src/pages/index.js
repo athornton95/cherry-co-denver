@@ -22,6 +22,8 @@ const IndexPage = () => (
         <Container maxWidth='md'>
           <Menu/>
         </Container>
+        <div class="wave-mid"></div>
+        <div class="wave-bottom"></div>
       </div>
     </div>
     <Footer />

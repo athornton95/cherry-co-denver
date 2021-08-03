@@ -121,6 +121,37 @@ hr {
     background-color: #EEE;
     height: 50px;
   }
+
+  .wave-bottom {
+    position: relative;
+  }
+  
+  .wave-bottom::before,
+  .wave-bottom::after {
+    border-top: 5px solid white;
+  }
+  
+  .wave-bottom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    background-size: 20px 40px;
+    background-image: radial-gradient(circle at 10px -15px, transparent 20px, #fff 21px);
+  }
+  
+  .wave-bottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle at 10px 26px, #fff 20px, transparent 21px);
+  }
 }
 
 .meta {
