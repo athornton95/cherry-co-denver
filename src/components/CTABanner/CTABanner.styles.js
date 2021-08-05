@@ -27,7 +27,32 @@ const styles = () => css`
     align-items: center;
     padding: 0 2rem;
     pointer-events: all;
-    grid-template-areas: "img button button text wwf close";
+  }
+
+  .email-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      padding-right: 1rem;
+      font-family: "bello-caps", sans-serif;
+      font-size: 1.5rem;
+    }
+
+    input {
+      padding: .75rem 1rem;
+      border-radius: .5rem;
+      width: 15rem;
+      background-color: rgba(185,0,11,1);
+      border: 1px solid white;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      color: white;
+
+      &::placeholder { 
+        color: white;
+        opacity: .8;
+    }
   }
 `;
 

@@ -10,7 +10,8 @@ export const data = {
         src: "./pies/pie-7.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Chocolate Pie",
@@ -20,7 +21,8 @@ export const data = {
         src: "./pies/pie-2.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -30,7 +32,8 @@ export const data = {
         src: "./pies/pie-1.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -40,7 +43,8 @@ export const data = {
         src: "./pies/pie-3.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -50,7 +54,8 @@ export const data = {
         src: "./pies/pie-4.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -60,7 +65,8 @@ export const data = {
         src: "./pies/pie-5.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -70,7 +76,8 @@ export const data = {
         src: "./pies/pie-6.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     },
     {
       title: "Apple Pie",
@@ -80,7 +87,7 @@ export const data = {
         src: "./pies/pie-8.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie"
     },
     {
       title: "Apple Pie",
@@ -90,7 +97,8 @@ export const data = {
         src: "./pies/pie-9.png",
         alt: ""
       },
-      price: "$"
+      price: "$4/slice, $21/whole pie",
+      additional: "Also available in mini pie!"
     }
   ]
 }

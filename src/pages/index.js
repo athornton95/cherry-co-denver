@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container } from '@material-ui/core';
-import { About, CTABanner, Menu, Footer, Hero, Layout, Navigation } from '../components';
+import { About, CTABanner, Events, Menu, Footer, Hero, ImageBanner, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <Layout>
@@ -19,12 +19,16 @@ const IndexPage = () => (
             <div className='wave-mid' /> 
           </div>
         </div>
-        <Container maxWidth='md'>
+        <Container maxWidth='lg'>
           <Menu/>
         </Container>
-        <div class="wave-mid"></div>
+        {/* <div class="wave-mid"></div> */}
         <div class="wave-bottom"></div>
       </div>
+      <Container maxWidth='md'>
+        <Events/>
+      </Container>
+      <ImageBanner/>
     </div>
     <Footer />
   </Layout>

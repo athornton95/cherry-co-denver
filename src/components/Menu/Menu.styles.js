@@ -8,23 +8,43 @@ const styles = () => css`
   }
 
   .menu-title {
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: "voltage", sans-serif;
+    padding-bottom: 2rem;
+  }
+
+  .grid-item-wrapper {
+    margin-bottom: 2rem;
   }
 
   .pie-image {
     height: 250px;
     width: 250px;
     animation: rotation 35s infinite linear;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: -.5rem;
+  }
+
+  .description {
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+  }
+
+  .additional {
+    color: #CF2634;
+    font-size: .75rem;
   }
 
   @keyframes rotation {
     from {
       transform: rotate(0deg);
-      filter: drop-shadow(5px 10px 10px #fefefe);
     }
     to {
       transform: rotate(359deg);
-      filter: drop-shadow(5px 10px 10px #666666);
     }
   }
 `;

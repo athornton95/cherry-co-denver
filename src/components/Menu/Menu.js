@@ -8,12 +8,16 @@ const Menu = () => {
   return (
     <div css={styles}>
       <div className='container'>
-        <h3 className='menu-title'>look at this menu!</h3>
+        <h3 className='menu-title'>Daily Menu</h3>
         <Grid container alignContent='center' alignItems='center' spacing={4}>
           {main.map(pie => {
             return (
-              <Grid key={pie.id} item xs={12} md={4}>
+              <Grid key={pie.id} item xs={12} sm={6} md={4} className='grid-item-wrapper'>
                 <img src={pie.image.src} alt={pie.image.alt} className='pie-image'/>
+                {pie.title && <p className='title'>{pie.title}</p>}
+                {pie.description && <p className='description'>{pie.description}</p>}
+                {pie.price && <p className='price'>{pie.price}</p>}
+                {pie.additional && <p className='additional'>{pie.additional}</p>}
               </Grid>
             )
           })}

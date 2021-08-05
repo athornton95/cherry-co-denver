@@ -7,6 +7,7 @@ const styles = css`
   border: 0;
   line-height: 1.4;
   font-family: "Proxima Nova", helvetica, sans-serif;
+  outline: none;
 }
 
 .main {
@@ -139,7 +140,7 @@ hr {
     bottom: 0;
     height: 10px;
     background-size: 20px 40px;
-    background-image: radial-gradient(circle at 10px -15px, transparent 20px, #fff 21px);
+    background-image: radial-gradient(circle at 10px -15px, transparent 20px, #EEE 21px);
   }
   
   .wave-bottom::after {
@@ -150,7 +151,7 @@ hr {
     bottom: 0;
     height: 15px;
     background-size: 40px 40px;
-    background-image: radial-gradient(circle at 10px 26px, #fff 20px, transparent 21px);
+    background-image: radial-gradient(circle at 10px 26px, #EEE 20px, transparent 21px);
   }
 }
 

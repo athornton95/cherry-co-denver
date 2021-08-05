@@ -6,7 +6,10 @@ const CTABanner = () => {
     <div css={styles}>
       <div className='container'>
         <div className='stage'>
-          <p>this is the cta banner wow</p>
+          <form className='email-form'>
+            <p>Join our email list! </p>
+            <input type='text' placeholder='you@lovepie.com' />
+          </form>
         </div>
       </div>
     </div>
