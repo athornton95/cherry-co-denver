@@ -27,17 +27,46 @@ const styles = () => css`
     }
   }
 
+  .image-container {
+    position: relative;
+  }
+
   .image {
     display: flex;
     justify-content: center;
     img {
       width: 70%;
       border-radius: 50%;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 
       @media (min-width: 600px) {
         width: 80%;
         margin: 0 2rem;
       }
+    }
+  }
+
+  .image:after {
+    @media (min-width: 960px) {
+      height: 12.6rem;
+      width: 12.6rem;
+      content: '';
+      border: .5rem double #CF2634;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 200;
+    }
+  }
+
+  .image:before {
+    @media (min-width: 960px) {
+      height: 12.6rem;
+      width: 12.6rem;
+      content: '';
+      border: .5rem solid #FEFEFE;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 10;
     }
   }
 `;

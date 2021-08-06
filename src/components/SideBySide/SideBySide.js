@@ -29,12 +29,12 @@ const SideBySide = (props) => {
               {text && <p><span className='title'>{title}</span>{text}</p>}
             </div>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-          {image.src && (
-            <div className='image'>
-              <img src={image.src} alt={image.alt} />
-            </div>
-            )}
+          <Grid item xs={12} sm={6} md={4} className='image-container'>
+            {image.src && (
+              <div className='image'>
+                <img src={image.src} alt={image.alt} />
+              </div>
+              )}
           </Grid>
           </>
         )}

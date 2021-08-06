@@ -6,9 +6,15 @@ import { data } from '../../data/menu';
 const Menu = () => {
   const { main } = data;
   return (
-    <div css={styles}>
+    <div css={styles} id='menu'>
       <div className='container'>
-        <h3 className='menu-title'>Daily Menu</h3>
+        <div className='section-header'>
+          <img src='./cherry-co-logo-wordmark.svg' alt='Colorado Cherry Company Logo' />
+        </div>
+        <div className='menu-title-container'>
+          <h3 className='menu-title'>Daily Menu</h3>
+          <p className='menu-subtitle'>Pies + Goods Baked Daily</p>
+        </div>
         <Grid container alignContent='center' alignItems='center' spacing={4}>
           {main.map(pie => {
             return (

@@ -11,7 +11,7 @@ const Navigation = () => {
             <img src='/cherry-co-logo-badge.png' alt='' />
           </div>
           <div className='nav-links'>
-            <a className='nav-link' href="#">
+            <a className='nav-link' href="#menu">
               Menu
             </a>
             <a className='nav-link' href="#">

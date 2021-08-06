@@ -11,7 +11,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Chocolate Pie",
@@ -22,7 +22,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -33,7 +33,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -44,7 +44,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -55,7 +55,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -66,7 +66,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -77,7 +77,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     },
     {
       title: "Apple Pie",
@@ -98,7 +98,7 @@ export const data = {
         alt: ""
       },
       price: "$4/slice, $21/whole pie",
-      additional: "Also available in mini pie!"
+      additional: "*Also available in mini pie!*"
     }
   ]
 }

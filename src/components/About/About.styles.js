@@ -2,34 +2,26 @@ import { css } from '@emotion/react';
 
 const styles = () => css`
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
   
   .section-header {
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid black;
 
     .title {
-      font-size: 5rem;
-      position: relative;
-      font-weight: extra-bold;
-      font-family: "voltage", sans-serif;
-      color: #CF2634;
-      line-height: .7;
-    }
-    .sub-title {
-      font-size: 3rem;
-      position: relative;
-      font-weight: extra-bold;
+      font-size: 7rem;
       font-family: "bello-caps", sans-serif;
-      color: #000;
+      color: #CF2634;
+      text-shadow: 3px 3px 0px rgba(0, 0, 0, .9);
+      margin-bottom: -.5rem;
     }
-  
-  }
 
-  .description {
-    font-size: 1.25rem;
-    margin-bottom: 2.5rem;
-  }
-  
+    .description {
+      font-size: 1.75rem;
+      text-transform: uppercase;
+    }
+  }  
 `;
 
 export default styles;
