@@ -44,7 +44,8 @@ const styles = () => css`
       z-index: 10;
 
       @media (min-width: 600px) {
-        font-size: 7rem;
+        line-height: 1.2;
+        font-size: 9rem;
       }
     }
 

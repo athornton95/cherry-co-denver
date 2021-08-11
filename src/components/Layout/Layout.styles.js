@@ -56,6 +56,12 @@ hr {
   border: 1px solid #CF2634;
 }
 
+.btn-cta {
+  color: white;
+  background-color: #CF2634;
+  text-decoration: none;
+}
+
 .btn-white:hover {
   color: #fff;
   background-color: #CF2634;

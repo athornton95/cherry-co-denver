@@ -10,6 +10,10 @@ const CTABanner = () => {
             <p>Join our email list! </p>
             <input type='text' placeholder='you@lovepie.com' />
           </form>
+          <div className="social">
+            <a href="#"><img className='social-icon' src="./icons/instagram-icon.svg" alt="Instagram Icon"/></a>
+            <a href="#"><img className='social-icon' src="./icons/facebook-icon.svg" alt="Facebook Icon" /></a>
+          </div>
         </div>
       </div>
     </div>

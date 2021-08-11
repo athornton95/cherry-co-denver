@@ -8,7 +8,8 @@ const styles = () => css`
   }
 
   .section-header {
-    margin-bottom: -2rem;
+    margin-top: 1rem;
+    margin-bottom: -3.5rem;
     img {
       height: 10rem;
       width: auto;
@@ -52,7 +53,6 @@ const styles = () => css`
     font-size: 3rem;
     color: #CF2634;
     margin-bottom: -.25rem;
-    // text-shadow: 2px 3px 0px rgba(0, 0, 0, .9);
   }
 
   .price {
@@ -75,6 +75,17 @@ const styles = () => css`
     to {
       transform: rotate(359deg);
     }
+  }
+
+  .text {
+    font-size: 1.5rem;
+    // color: #CF2634;
+    padding: .5rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .btn-cta {
+    margin-top: 2rem;
   }
 `;
 

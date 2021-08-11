@@ -14,6 +14,9 @@ const Navigation = () => {
             <a className='nav-link' href="#menu">
               Menu
             </a>
+            <a className='nav-link' href="#about">
+              About Us
+            </a>
             <a className='nav-link' href="#">
               Events
             </a>

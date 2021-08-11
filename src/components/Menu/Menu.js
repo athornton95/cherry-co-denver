@@ -28,6 +28,10 @@ const Menu = () => {
             )
           })}
         </Grid>
+        <div>
+          <p className='text'>For the most up to date info on daily specials, give our bakery a call!</p>
+          <a href='#' className='btn btn-cta'>Contact Us</a>
+        </div>
       </div>
     </div>
   );

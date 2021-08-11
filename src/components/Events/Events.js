@@ -5,7 +5,7 @@ const Events = () => {
   return (
     <div css={styles}>
       <div>
-        <h3>this is the events block</h3>
+        {/* <h3>this is the events block</h3> */}
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ const styles = () => css`
       border: .5rem double #CF2634;
       border-radius: 50%;
       position: absolute;
-      z-index: 200;
+      z-index: 10;
     }
   }
 
