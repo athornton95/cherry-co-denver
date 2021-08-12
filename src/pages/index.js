@@ -9,15 +9,9 @@ const IndexPage = () => (
     <div className='content-body'>
       <Navigation/>
       <div className='menu-container'>
-        {/* <div className='wave'>
-          <div className='wave-top'>
-            <div className='wave-mid' /> 
-          </div>
-        </div> */}
         <Container maxWidth='md'>
           <Menu/>
         </Container>
-        {/* <div class="wave-mid"></div> */}
         <div class="wave-bottom"></div>
       </div>
       <Container maxWidth='md'>

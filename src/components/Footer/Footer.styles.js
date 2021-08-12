@@ -20,17 +20,33 @@ const styles = () => css`
       }
     }
 
+    .social {
+      display: block;
+      padding-bottom: .75rem;
+      svg {
+        height: 1.75rem;
+        width: 1.75rem;
+        padding: 0 .5rem;
+      }
+
+      @media (min-width: 1023px) {
+        display: none;
+      }
+    }
+
     .details {
       text-align: center;
       padding-bottom: 1rem;
 
       p {
+        text-align: center;
         font-weight: 400;
         font-size: 1.25rem;
       }
     }
 
     p {
+      text-align: center;
       font-weight: 300;
       font-family: proxima-nova-condensed, sans-serif;
     }
