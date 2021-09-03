@@ -35,6 +35,10 @@ section {
   padding-bottom: 48px;
 }
 
+a {
+  cursor: pointer;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -60,6 +64,10 @@ hr {
   color: white;
   background-color: #CF2634;
   text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: #b9000c;
 }
 
 .btn-white:hover {

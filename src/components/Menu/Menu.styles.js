@@ -16,9 +16,13 @@ const styles = () => css`
     }
   }
 
+  .menu-section {
+    padding-bottom: 2rem;
+  }
+
   .menu-title-container {
     padding-bottom: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-bottom: 1px solid black;
   }
 
@@ -53,6 +57,8 @@ const styles = () => css`
     font-size: 3rem;
     color: #CF2634;
     margin-bottom: -.25rem;
+    line-height: 1;
+    padding-bottom: 1rem;
   }
 
   .price {
@@ -79,13 +85,16 @@ const styles = () => css`
 
   .text {
     font-size: 1.5rem;
-    // color: #CF2634;
     padding: .5rem 0;
     padding-bottom: 2rem;
   }
 
   .btn-cta {
     margin-top: 2rem;
+  }
+
+  .grid-container {
+    padding-bottom: 2rem;
   }
 `;
 

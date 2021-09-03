@@ -12,7 +12,7 @@ const IndexPage = () => (
         <Container maxWidth='md'>
           <Menu/>
         </Container>
-        <div class="wave-bottom"></div>
+        <div className="wave-bottom"></div>
       </div>
       <Container maxWidth='md'>
         <About/>
