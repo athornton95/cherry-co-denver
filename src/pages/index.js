@@ -1,29 +1,37 @@
 import * as React from "react";
+import { Helmet } from "react-helmet"
 import { Container } from '@material-ui/core';
 import { About, CTABanner, Events, Menu, Footer, Hero, ImageBanner, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
-  <Layout>
-    <CTABanner/>
-    <Hero/>
-    <div className='content-body'>
-      <Navigation/>
-      <div className='menu-container'>
+  <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Colorado Cherry Co, Pie + Provisions</title>
+      <link rel="canonical" href="#" />
+    </Helmet>
+    <Layout>
+      <CTABanner/>
+      <Hero/>
+      <div className='content-body'>
+        <Navigation/>
+        <div className='menu-container'>
+          <Container maxWidth='md'>
+            <Menu/>
+          </Container>
+          <div className="wave-bottom"></div>
+        </div>
         <Container maxWidth='md'>
-          <Menu/>
+          <About/>
         </Container>
-        <div className="wave-bottom"></div>
+        <Container maxWidth='md'>
+          <Events/>
+        </Container>
+        <ImageBanner/>
       </div>
-      <Container maxWidth='md'>
-        <About/>
-      </Container>
-      <Container maxWidth='md'>
-        <Events/>
-      </Container>
-      <ImageBanner/>
-    </div>
-    <Footer />
-  </Layout>
+      <Footer />
+    </Layout>
+  </>
 );
 
 export default IndexPage;

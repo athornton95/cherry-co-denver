@@ -38,6 +38,7 @@ const styles = () => css`
       width: 70%;
       border-radius: 50%;
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      height: auto;
 
       @media (min-width: 600px) {
         width: 80%;

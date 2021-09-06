@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { Modal } from '@material-ui/core';
 import styles from './Navigation.styles';
 
@@ -18,44 +18,57 @@ function getModalStyle() {
   };
 }
 
-// const useStyles = makeStyles((theme) => ({
-//   paper: {
-//     position: 'absolute',
-//     width: 400,
-//     backgroundColor: theme.palette.background.paper,
-//     border: '2px solid #000',
-//     boxShadow: theme.shadows[5],
-//     padding: theme.spacing(2, 4, 3),
-//   },
-// }));
+const useStyles = makeStyles((theme) => ({
+  paper: {
+    position: 'absolute',
+    width: 400,
+    backgroundColor: theme.palette.background.paper,
+    border: '2px solid #000',
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2, 4, 3),
+  },
+}));
 
-const Navigation = () => {
-  // const classes = useStyles();
+const SimpleModal = (props) => {
+  console.log(props, 'props in simple modal');
+  const { setOpen, open } = props;
+
+  const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
-  // const [modalStyle] = useState(getModalStyle);
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    console.log('this is clcking')
-    setOpen(true);
-  };
+  const [modalStyle] = React.useState(getModalStyle);
 
   const handleClose = () => {
     setOpen(false);
   };
 
-  const test = () => {
-    console.log('testing clicks')
-  }
-
   const body = (
-    <div>
+    <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">Text in a modal</h2>
       <p id="simple-modal-description">
         Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
       </p>
+      <SimpleModal />
     </div>
   );
+
+  return (
+    <Modal
+      open={open}
+      onClose={handleClose}
+      aria-labelledby="simple-modal-title"
+      aria-describedby="simple-modal-description"
+    >
+      {body}
+    </Modal>
+  );
+}
+
+const Navigation = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
   return (
     <>
@@ -75,22 +88,21 @@ const Navigation = () => {
               <a className='nav-link' href="#">
                 Events
               </a>
-              <button className='nav-link' onClick={test}>
+              <a className='nav-link' onClick={() => console.log('this is hitting')}>
                 Contact Us
+              </a>
+              <button className='btn btn-white' type="button" onClick={handleOpen}>
+                Order Locally
               </button>
-              <a color="inherit" className='btn btn-white'>Order Locally</a>
             </div>
           </div>
         </div>
       </div>
-      <Modal
+      <SimpleModal
         open={open}
-        onClose={handleClose}
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
-      >
-        {body}
-      </Modal>
+        setOpen={setOpen}
+        text="Hello this is a prop"
+      />
     </>
   );
 };
