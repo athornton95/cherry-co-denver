@@ -1,67 +1,114 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import { Modal } from '@material-ui/core';
+import { css } from '@emotion/react';
 import styles from './Navigation.styles';
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
+const modalStyles = () => css`
+  .modal {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: .5rem;
+    padding: 3rem 2rem 2rem 2rem;
+  }
 
-function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
+  .modal-title {
+    color: #CF2634;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-  return {
-    top: `${top}%`,
-    left: `${left}%`,
-    transform: `translate(-${top}%, -${left}%)`,
+  .button-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1.5rem;
   };
-}
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, 50%)',
-    width: 400,
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-  },
-}));
+  .btn-text {
+    color: #CF2634;
+    text-decoration: underline;
+    font-size: .75rem;
+    margin-right: 1rem;
+  }
+
+  .btn-cta {
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+    text-align: center;
+  }
+
+  .emphasis {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+  }
+
+  .exit-modal {
+    position: absolute;
+    right: .75rem;
+    top: .75rem;
+
+    svg {
+      height: 3rem;
+      width: 3rem;
+      fill: black;
+    }
+
+    svg:hover {
+      height: 3rem;
+      width: 3rem;
+      fill: #CF2634;
+      cursor: pointer;
+    }
+  }
+`;
 
 const SimpleModal = (props) => {
-  console.log(props, 'props in simple modal');
   const { setOpen, open } = props;
-
-  const classes = useStyles();
-  // getModalStyle is not a pure function, we roll the style only on the first render
-  const [modalStyle] = React.useState(getModalStyle);
 
   const handleClose = () => {
     setOpen(false);
   };
 
   const body = (
-    <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">Text in a modal</h2>
-      <p id="simple-modal-description">
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-      </p>
+    <div css={modalStyles}>
+      <div className='modal'>
+        <div className='exit-modal'>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125" onClick={handleClose}>
+            <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
+          </svg>
+        </div>
+        <p className='modal-title' id="simple-modal-title">We're stoked you want to order!</p>
+        <p >
+          And online ordering will be made available to everyone soon.
+        </p>
+        <p>
+        As of now though, online ordering is available for <span className='emphasis'>local pick up only</span>. 
+        </p>
+        <div className='button-grid'>
+          <a href="#" className='btn btn-cta'>
+            Continue to pie
+          </a>
+        </div>
+      </div>
     </div>
   );
 
   return (
-    <Modal
-      open={open}
-      onClose={handleClose}
-      aria-labelledby="simple-modal-title"
-      aria-describedby="simple-modal-description"
-    >
-      {body}
-    </Modal>
+    <div styles={{ position: 'absolute' }}>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        {body}
+      </Modal>
+    </div>
   );
 }
 

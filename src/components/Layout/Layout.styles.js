@@ -58,6 +58,7 @@ hr {
 .btn-white {
   color: #CF2634;
   border: 1px solid #CF2634;
+  background-color: white;
 }
 
 .btn-cta {
