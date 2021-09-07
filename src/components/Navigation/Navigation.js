@@ -5,11 +5,14 @@ import styles from './Navigation.styles';
 
 const modalStyles = () => css`
   .modal {
-    position: absolute;
-    top: 25%;
+    position: relative;
+    width: 280px !important;
+    @media (min-width: 1024px) {
+      width: 600px !important;
+    }
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
-    width: 400;
     background-color: white;
     border: 2px solid #000;
     border-radius: .5rem;
