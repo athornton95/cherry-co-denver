@@ -173,7 +173,9 @@ hr {
 
   .events-container {
     background-color: white;
-    padding-bottom: 3rem;
+    @media (min-width: 1024px) {
+      padding-bottom: 3rem;
+    }
   }
 `;
 

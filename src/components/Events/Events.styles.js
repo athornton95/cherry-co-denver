@@ -9,7 +9,10 @@ const styles = () => css`
     border-bottom: 1px solid black;
 
     .title {
-      font-size: 7rem;
+      font-size: 5rem;
+      @media (min-width: 1024px) {
+        font-size: 7rem;
+      }
       font-family: "bello-caps", sans-serif;
       color: #CF2634;
       text-shadow: 3px 3px 0px rgba(0, 0, 0, .9);
@@ -24,7 +27,9 @@ const styles = () => css`
   
   .section-body {
     margin: -3rem auto 0 auto;
-    width: 75%;
+    @media (min-width: 1024px) {
+      width: 75%;
+    }
 
     .title {
       font-family: "voltage", sans-serif;
@@ -53,7 +58,7 @@ const styles = () => css`
       text-decoration: underline;
       display: block;
       font-size: .75rem;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
   }
 `;

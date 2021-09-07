@@ -134,7 +134,7 @@ const Navigation = () => {
               <a className='nav-link' href="#about">
                 About Us
               </a>
-              <a className='nav-link' href="#">
+              <a className='nav-link' href="#events">
                 Events
               </a>
               <a className='nav-link' href="#contact">
