@@ -1,15 +1,20 @@
 import { css } from '@emotion/react';
 
 const styles = () => css`
-  @media (max-width: 600px) {
-    display: none;
-  }
   position: sticky;
   top: 0;
   z-index: 50;
   background-color: white;
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+  .nav-secondary {
+    background-color: #629640;
+    color: white;
+    text-align: center;
+    padding: .5rem 2rem;
+    margin-bottom: 1rem;
+  }
 
   .nav-container {
     box-shadow: none;
@@ -24,9 +29,15 @@ const styles = () => css`
   .nav-links {
     display: flex;
     flex-direction: row;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   .nav-link {
+    @media (max-width: 600px) {
+      display: none;
+    }
     font-size: 1rem;
     align-self: center;
     margin: 0 1rem;
@@ -42,7 +53,18 @@ const styles = () => css`
     margin-left: 1rem;
   }
 
+  .order {
+    @media (max-width: 600px) {
+      margin: 0 auto;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
   .logo {
+    @media (max-width: 600px) {
+      display: none;
+    }
     position: relative;
     img {
       position: absolute;

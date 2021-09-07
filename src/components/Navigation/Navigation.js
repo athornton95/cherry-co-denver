@@ -122,6 +122,9 @@ const Navigation = () => {
   return (
     <>
       <div css={styles} id="nav">
+        <div className='nav-secondary'>
+          <p>Labor Day Pie Pre Order!</p>
+        </div>
         <div className='nav-container'>
           <div className='nav'>
             <div className='logo'>
@@ -140,7 +143,7 @@ const Navigation = () => {
               <a className='nav-link' href="#contact">
                 Contact Us
               </a>
-              <button className='btn btn-white' type="button" onClick={handleOpen}>
+              <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 Order Locally
               </button>
             </div>
@@ -150,7 +153,6 @@ const Navigation = () => {
       <SimpleModal
         open={open}
         setOpen={setOpen}
-        text="Hello this is a prop"
       />
     </>
   );
