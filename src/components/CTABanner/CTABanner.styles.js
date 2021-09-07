@@ -6,7 +6,7 @@ const styles = () => css`
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 30%;
+    height: 60%;
     pointer-events: none;
     z-index: 1999;
     -webkit-transform: translate3d(0, 0, 0);

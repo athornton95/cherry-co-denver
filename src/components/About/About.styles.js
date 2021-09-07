@@ -3,6 +3,7 @@ import { css } from '@emotion/react';
 const styles = () => css`
   text-align: center;
   margin-top: 1rem;
+  padding-bottom: 6rem;
   
   .section-header {
     padding-bottom: 1rem;

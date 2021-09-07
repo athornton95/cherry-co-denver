@@ -137,7 +137,7 @@ const Navigation = () => {
               <a className='nav-link' href="#">
                 Events
               </a>
-              <a className='nav-link' onClick={() => console.log('this is hitting')}>
+              <a className='nav-link' href="#contact">
                 Contact Us
               </a>
               <button className='btn btn-white' type="button" onClick={handleOpen}>

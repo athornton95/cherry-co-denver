@@ -96,6 +96,10 @@ const styles = () => css`
   .grid-container {
     padding-bottom: 2rem;
   }
+
+  .contact-block {
+    border-bottom: 1px solid black;
+  }
 `;
 
 export default styles;

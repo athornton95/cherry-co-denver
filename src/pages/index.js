@@ -24,9 +24,11 @@ const IndexPage = () => (
         <Container maxWidth='md'>
           <About/>
         </Container>
-        <Container maxWidth='md'>
-          <Events/>
-        </Container>
+        <div className='events-container'>
+          <Container maxWidth='md'>
+            <Events/>
+          </Container>
+        </div>
         <ImageBanner/>
       </div>
       <Footer />

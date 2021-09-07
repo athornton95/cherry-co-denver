@@ -133,11 +133,34 @@ export const data = {
       additional: "*Hot and ready until sold out! Minis available as take and bake too!*"
     },
     {
-      title: "Ham n' Swiss ",
+      title: "Ham n' Swiss",
       id: uuidv4(),
       description: "Chunks of country ham with swiss cheese served with house honey mustard",
       price: "$7/hand pie",
       additional: "*Hand pie only!*"
+    }
+  ],
+  beverages: [
+    {
+      title: "Piescream!",
+      id: uuidv4(),
+      description: "Pie milkshakes -- a slice of pie blended with ice cream!",
+      additional: "*Serving Highpoint Creamery ice cream a la mode with any slice of pie!*"
+    },
+    {
+      title: "Full Espresso Bar",
+      id: uuidv4(),
+      description: "Serving locally roasted craft coffee and full espresso offerring",
+    },
+    {
+      title: "Beer/Drinks",
+      id: uuidv4(),
+      description: "Craft Colorado beers, Jiant hard kombucha, Coors Banquet, and more",
+    },
+    {
+      title: "Cocktails",
+      id: uuidv4(),
+      description: "Rotating cocktails, including Irish Coffee, Lavendar Lemonade, Hot Toddys and more. Serving Caprock Gin and Mell Vodka from Hotchkiss Co",
     }
   ]
 }
