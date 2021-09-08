@@ -143,9 +143,6 @@ const Navigation = () => {
               <a className='nav-link' href="#events">
                 Events
               </a>
-              <a className='nav-link' href="#contact">
-                Contact Us
-              </a>
               <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 Order Locally
               </button>
