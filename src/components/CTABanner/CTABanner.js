@@ -2,20 +2,19 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import moment from 'moment';
 import { Modal } from '@material-ui/core';
-import { Toast } from '../../components';
 import { css } from '@emotion/react';
 import styles from './CTABanner.styles';
 
 const modalStyles = () => css`
   .modal {
-    position: relative;
+    position: absolute;
     width: 280px !important;
     @media (min-width: 1024px) {
       width: 600px !important;
     }
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translateX(-50%);
     background-color: white;
     border: 2px solid #000;
     border-radius: .5rem;
@@ -76,7 +75,10 @@ const modalStyles = () => css`
 const SimpleModal = (props) => {
   const [signupObject, setSignupObject] = useState({ email: '', firstName: '', lastName: '', submissionDate: '' });
   const [submissionStatus, setSubmissionStatus] = useState({ message: '', severity: '' });
-  const [triggerToast, setTriggerToast] = useState(false);
+  const [submitDisabled, setSubmitDisabled] = useState(false);
+  const [successSubmitted, setSuccessSubmitted] = useState(false);
+  const [headerMessage, setHeaderMessage] = useState('Join our email list!');
+
   useEffect(() => {
     setSignupObject({
       ...signupObject,
@@ -86,7 +88,6 @@ const SimpleModal = (props) => {
   
   const { setOpen, open } = props;
   
-
   const handleChange = (e) => {
     const value = e.target.value;
     setSignupObject({ 
@@ -100,27 +101,39 @@ const SimpleModal = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setSubmitDisabled(true);
     axios.post('https://sheet.best/api/sheets/3933090e-f4a3-4301-85b5-81753abcb5f6', signupObject)
     .then(() => {
       setSubmissionStatus({ 
         message: 'Thanks for signing up! Our super fun and cool newsletter will be coming to your inbox soon!',
         severity: 'success'
       })
-      setTriggerToast(true);
+      setSuccessSubmitted(true);
+      setHeaderMessage('Success!');
     })
     .catch(function(error) {
       setSubmissionStatus({ 
         message: 'Uh oh, something went wrong and we were unable to submit your information. Please try again later!',
         severity: 'error'
       })
-      setTriggerToast(true);
+      setHeaderMessage('Something went wrong.' );
       console.log(error);
     });
   };
 
   const handleClose = () => {
     setOpen(false);
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = "")
+    );
+    setSignupObject({ email: '', firstName: '', lastName: '', submissionDate: '' });
+    setSubmissionStatus({ message: '', severity: '' });
+    setSubmitDisabled(false);
+    setSuccessSubmitted(false);
+    setHeaderMessage('Join our email list!');
   };
+
+  console.log(successSubmitted, 'should be true after submit')
 
   const body = (
     <>
@@ -131,17 +144,19 @@ const SimpleModal = (props) => {
               <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
             </svg>
           </div>
-          <form id='signup-form' onSubmit={handleSubmit}>
-            <p>Join our email list!</p>
+          <p className='form-header'>{headerMessage}</p>
+          <form id='signup-form' className={successSubmitted ? 'hide' : 'show'} onSubmit={handleSubmit}>
+            <div className='form-group-names'>
+              <input type='text' id='firstName' name='firstName' placeholder='Olive' value={signupObject.firstName} onChange={handleChange} />
+              <input type='text' id='lastName' name='lastName' placeholder='Cherri-Pye' value={signupObject.lastName} onChange={handleChange} />
+            </div>
             <input type='text' id='email' name='email' placeholder='you@lovepie.com' value={signupObject.email} onChange={handleChange} />
-            <input type='text' id='firstName' name='firstName' placeholder='Olive' value={signupObject.firstName} onChange={handleChange} />
-            <input type='text' id='lastName' name='lastName' placeholder='Cherri-Pye' value={signupObject.lastName} onChange={handleChange} />
             <input type='hidden' id='date' name='submissionDate' value={submissionDate}/>
-            <input type='submit'/>
+            <input type='submit' className='btn btn-cta form-submit' disabled={signupObject.email === '' || submitDisabled}/>
           </form>
+          {submissionStatus.message !=='' && <p className={`status status-${submissionStatus.severity}`}>{submissionStatus.message}</p>}
         </div>
       </div>
-      <Toast severity={submissionStatus.severity} message={submissionStatus.message} openToast={triggerToast} />
     </>
   );
 
@@ -171,10 +186,10 @@ const CTABanner = () => {
       <div css={styles}>
         <div className='container'>
           <div className='stage'>
-            <a onClick={handleOpen} className='btn btn-white'>Join Our Email List</a>
+            <button onClick={handleOpen} className='btn btn-white'>Join Our Email List</button>
             <div className="social">
               <a href="https://www.instagram.com/coloradocherrycompany/"><img className='social-icon' src="./icons/instagram-icon.svg" alt="Instagram Icon"/></a>
-              <a href="#"><img className='social-icon' src="./icons/facebook-icon.svg" alt="Facebook Icon" /></a>
+              <a href="https://www.facebook.com/CoCherryCO"><img className='social-icon' src="./icons/facebook-icon.svg" alt="Facebook Icon" /></a>
             </div>
           </div>
         </div>

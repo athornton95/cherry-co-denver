@@ -7,8 +7,11 @@ const styles = () => css`
     left: 0;
     width: 100%;
     height: 60%;
+    @media (max-width: 1024px) {
+      height: 75%;
+    }
     pointer-events: none;
-    z-index: 1999;
+    z-index: 1200;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     vertical-align: baseline;

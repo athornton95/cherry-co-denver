@@ -1,16 +1,16 @@
 ## TODO
 ### COMPONENTS
 
-[ ] - Navigation
+[x] - Navigation
   [x] - Cherry CO Logo
   [x] - Navigable Anchors
-  [ ] - Order Now Button
-    [ ] - Order now modal ('for tennyson street shop pick up only? cool? to toast, cancel closes model')
+  [x] - Order Now Button
+    [x] - Order now modal ('for tennyson street shop pick up only? cool? to toast, cancel closes model')
   [x] - Fix stickiness
-[ ] - CTA Banner
+[x] - CTA Banner
   [x] - Appears ~40% (adjust for breakpoints) of the way down the site
-  [ ] - Order for instore pickup button
-  [ ] - sign up for newsletter form (?)
+  [x] - Order for instore pickup button
+  [x] - sign up for newsletter form (?)
 [x] - Hero 
   [x] - General design/layout
   [x] - Add <a> to bouncing caret
@@ -18,7 +18,7 @@
 [x] - About Us
 [ ] - Side by Side
   [ ] - Mobile 'order'
-[ ] - Menu 
+[x] - Menu 
 [ ] - Services
   [ ] - Service
     [ ] - Title

@@ -177,6 +177,75 @@ hr {
       padding-bottom: 3rem;
     }
   }
+
+  .modal {
+    .form-header {
+      padding-bottom: 1rem;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .show {
+      display: flex;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: .5rem .75rem;
+        flex: 1;
+      }
+
+      .form-submit[disabled] {
+        background-color: darkGrey;
+        color: grey;
+      }
+
+      .form-group-names {
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 1024px) {
+          flex-direction: row;
+        }
+
+        #lastName {
+          margin-top: 1rem;
+
+          @media (min-width: 1024px) {
+            margin-top: 0;
+            margin-left: 1rem;
+          }
+        }
+      }
+
+      .btn-cta {
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+    .status {
+      font-size: 1rem;
+    
+      &-error {
+        color: red;
+        padding-top: 1rem;
+      }
+  
+      &-success {
+        color: green;
+      }
+    }
+  }
 `;
 
 export default styles;

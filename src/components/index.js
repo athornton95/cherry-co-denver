@@ -9,4 +9,3 @@ export { default as ImageBanner } from './ImageBanner/ImageBanner';
 export { default as Layout } from './Layout/Layout';
 export { default as Navigation } from './Navigation/Navigation';
 export { default as SideBySide } from './SideBySide/SideBySide';
-export { default as Toast } from './Toast/Toast';
