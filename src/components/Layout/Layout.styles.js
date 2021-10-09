@@ -207,6 +207,7 @@ hr {
       .form-submit[disabled] {
         background-color: darkGrey;
         color: grey;
+        pointer-events: none;
       }
 
       .form-group-names {
