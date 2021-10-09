@@ -45,10 +45,18 @@ const styles = () => css`
       }
     }
 
-    p {
+    p,
+    span {
       text-align: center;
       font-weight: 300;
       font-family: proxima-nova-condensed, sans-serif;
+    }
+
+    .inline-button {
+      font-weight: 300;
+      font-family: proxima-nova-condensed, sans-serif;
+      color: white;
+      display: inline
     }
   }
 `;

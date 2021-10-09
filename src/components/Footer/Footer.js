@@ -23,7 +23,7 @@ const Footer = () => {
           
         </div>
         <p>Copyright © 2021 • Colorado Cherry Co. Pie + Provisions</p>
-        <p>Web Design & Development by Alex Hopkins.</p>
+        <span>Web Design & Development by <a className='inline-button'href="https://www.alexhopkins.dev/">Alex Hopkins</a></span>
       </div>
     </div>
   );
