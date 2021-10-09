@@ -5,15 +5,21 @@ const styles = () => css`
   top: 0;
   z-index: 50;
   background-color: white;
-  padding: 0 0 1rem 0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  @media (min-width: 600px) {
+    padding: 0 0 1rem 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
 
   .nav-secondary {
     background-color: #629640;
     color: white;
     text-align: center;
     padding: .5rem 2rem;
-    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    @media (min-width: 600px) {
+      box-shadow: none;
+      margin-bottom: 1rem;
+    }
   }
 
   .nav-container {
@@ -43,6 +49,7 @@ const styles = () => css`
     margin: 0 1rem;
     text-decoration: none;
     color: #CF2634;
+    border-bottom: 1px solid white;
   }
 
   .nav-link:hover {

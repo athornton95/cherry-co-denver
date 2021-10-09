@@ -29,7 +29,7 @@ const styles = () => css`
 
     h3 {
       font-family: "voltage", sans-serif;
-      font-size: 4rem;
+      font-size: 5rem;
       font-weight: bold;
       text-shadow:
         0 0 1px #CF2634,

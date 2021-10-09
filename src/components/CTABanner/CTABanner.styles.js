@@ -25,12 +25,17 @@ const styles = () => css`
     max-height: 6rem;
     display: flex;
     align-items: center;
-    padding: 0 1.25rem;
     @media (min-width: 1024px) {
       padding: 0 2rem;
     }
     pointer-events: all;
     justify-content: space-between;
+
+    .btn-white {
+      @media (max-width: 1024px) {
+        margin: 0 auto;
+      }
+    }
   }
 
   .stage:after {
@@ -39,7 +44,7 @@ const styles = () => css`
       content: '';
       height: 6rem;
       background-color: #fff;
-      top: 0;
+      top: -1px;
       right: 0;
       width: 30%;
       clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);

@@ -53,13 +53,19 @@ const styles = () => css`
       }
     }
 
-    .btn-text {
-      color: #CF2634;
-      text-decoration: underline;
+    .call-block {
       display: block;
-      font-size: .75rem;
       margin-top: 1.5rem;
+      color: #CF2634;
+      font-size: .75rem;
+
+      .btn-text {
+        color: #CF2634;
+        text-decoration: underline;
+        font-size: .75rem;
+      }
     }
+
   }
 `;
 

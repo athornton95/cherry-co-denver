@@ -116,17 +116,17 @@ const SimpleModal = (props) => {
 }
 
 const Navigation = () => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // };
 
   return (
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Labor Day Pie Pre Order!</p>
+          <p>Thanksgiving Pie Pre-Orders Are Open!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -143,17 +143,17 @@ const Navigation = () => {
               <a className='nav-link' href="#events">
                 Events
               </a>
-              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 Order Locally
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
       </div>
-      <SimpleModal
+      {/* <SimpleModal
         open={open}
         setOpen={setOpen}
-      />
+      /> */}
     </>
   );
 };

@@ -74,7 +74,7 @@ hr {
 .btn-white:hover {
   color: #fff;
   background-color: #CF2634;
-  border: 1px solid #CF2634;
+  border: 1px solid white;
   text-shadow: none;
 }
 
