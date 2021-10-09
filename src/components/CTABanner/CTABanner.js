@@ -133,8 +133,6 @@ const SimpleModal = (props) => {
     setHeaderMessage('Join our email list!');
   };
 
-  console.log(successSubmitted, 'should be true after submit')
-
   const body = (
     <>
       <div css={modalStyles}>
