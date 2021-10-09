@@ -2,6 +2,15 @@ import { css } from '@emotion/react';
 
 const styles = () => css`
   text-align: left;
+  @media ( max-width: 600px ) {  
+    padding-bottom: 3rem;
+  }
+
+  .image {
+    @media ( max-width: 600px ) {  
+      margin-top: -2rem;
+    }
+  }
 
   .content {
     padding: 1rem 0;
@@ -13,6 +22,18 @@ const styles = () => css`
       font-size: 3rem;
       line-height: 0;
       padding-right: .5rem;
+    }
+  }
+
+  .image-left {
+    @media (max-width: 600px) {  
+      order: 2
+    }
+  }
+
+  .text-right-container {
+    @media (max-width: 600px) {  
+      order: 1
     }
   }
 

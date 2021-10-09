@@ -9,14 +9,14 @@ const SideBySide = (props) => {
       <Grid container spacing={6} justify="center" alignItems="center">
         {position === 'image-left' ? (
           <>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4}  className='image-left'>
               {image.src && (
                 <div className='image'>
                   <img src={image.src} alt={image.alt} />
                 </div>
               )}
             </Grid>
-            <Grid item xs={12} sm={6} md={8}>
+            <Grid item xs={12} sm={6} md={8}  className='text-right-container'>
               <div className='content text-right'>
                 {text && <p><span className='title'>{title}</span>{text}</p>}
               </div>
@@ -24,7 +24,7 @@ const SideBySide = (props) => {
           </>
         ) : (
           <>
-          <Grid item xs={12} sm={6} md={8}>
+          <Grid item xs={12} sm={6} md={8}> 
             <div className='content text-left'>
               {text && <p><span className='title'>{title}</span>{text}</p>}
             </div>
