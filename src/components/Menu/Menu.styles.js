@@ -29,14 +29,18 @@ const styles = () => css`
   .menu-title {
     font-size: 5rem;
     padding-top: 1rem;
+    @media (max-width: 600px) {
+      line-height: .75;
+      margin: 1rem 0;
+    }
     @media (min-width: 1024px) {
       font-size: 7rem;
       padding-top: 0;
+      margin-bottom: -.5rem;
     }
     font-family: "bello-caps", sans-serif;
     color: #CF2634;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, .9);
-    margin-bottom: -.5rem;
   }
 
   .menu-subtitle {

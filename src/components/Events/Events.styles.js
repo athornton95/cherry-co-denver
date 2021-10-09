@@ -10,6 +10,11 @@ const styles = () => css`
 
     .title {
       font-size: 5rem;
+      @media (max-width: 600px) {
+        line-height: 1;
+        margin-bottom: 1rem;
+      }
+
       @media (min-width: 1024px) {
         font-size: 7rem;
       }
