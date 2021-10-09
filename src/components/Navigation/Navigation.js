@@ -132,7 +132,7 @@ const Navigation = () => {
         <div className='nav-container'>
           <div className='nav'>
             <div className='logo'>
-              <img src='/cherry-co-logo-badge.png' alt='' />
+              <img src='/cherry-co-logo-badge.webp' alt='' />
             </div>
             <div className='nav-links'>
               <a className='nav-link' href="#menu">

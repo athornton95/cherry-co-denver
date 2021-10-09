@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerImage from '../../../public/cherry-co-family.jpeg'
+import bannerImage from '../../../public/cherry-co-family.webp'
 import styles from './ImageBanner.styles';
 
 const ImageBanner = () => {

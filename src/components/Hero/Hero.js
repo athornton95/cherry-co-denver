@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.styles';
-import heroImage from '../../../public/brick-wall.jpeg'
+import heroImage from '../../../public/brick-wall.webp'
 
 const Hero = () => (
   <div css={styles}>

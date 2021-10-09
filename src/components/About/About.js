@@ -13,7 +13,7 @@ const About = () => {
         position="image-right"
         image={
           {
-            src: "./cc-1929.jpeg",
+            src: "./cc-1929.webp",
             alt: "Grandmother and Grandfather Lehnert, 1929"
           }
         }
@@ -26,7 +26,7 @@ const About = () => {
         text={"Lehnert family moves to northern Colorado where region is known for tart cherries. Continue tradition of pie and cherry cider. Lehnert family moves to northern Colorado where region is known for tart cherries. Continue tradition of pie and cherry cider."}
         image={
           {
-            src: "./cc-1950.jpeg",
+            src: "./cc-1950.webp",
             alt: "Colorado Cherry Co, 1950"
           }
         }
@@ -37,7 +37,7 @@ const About = () => {
         text={"3rd generation Lehnerts open shops by Estes Park and 4th generation opens in Denver on Tennyson St, March 2021. 3rd generation Lehnerts open shops by Estes Park and 4th generation opens in Denver on Tennyson St, March 2021."}
         image={
           {
-            src: "./cc-2021.jpeg",
+            src: "./cc-2021.webp",
             alt: "Roo and Elias Lehnert, 2021"
           }
         }

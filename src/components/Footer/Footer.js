@@ -6,7 +6,7 @@ const Footer = () => {
     <div css={styles}>
       <div className='footer'>
         <div className='logo'>
-          <img src="./cherry-co-logo-white.png" alt="Colorado Cherry Co. Logo"/>
+          <img src="./cherry-co-logo-white.webp" alt="Colorado Cherry Co. Logo"/>
         </div>
         <div className='details'>
           <p>4000 Tennyson St Suite 100, Denver, CO 80212</p>

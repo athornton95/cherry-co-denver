@@ -7,7 +7,7 @@ export const data = {
       id: uuidv4(),
       description: "Tart Montmorency cherries in our signature all butter crust",
       image: {
-        src: "./pies/pie-7.png",
+        src: "./pies/pie-7.webp",
         alt: ""
       },
       price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie",
@@ -18,7 +18,7 @@ export const data = {
       id: uuidv4(),
       description: "Creamy guittard chocolate in an oreo butter crust topped with whip",
       image: {
-        src: "./pies/pie-2.png",
+        src: "./pies/pie-2.webp",
         alt: ""
       },
       price: "$5/slice, $12/mini pie, $27/full pie"
@@ -28,7 +28,7 @@ export const data = {
       id: uuidv4(),
       description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
       image: {
-        src: "./pies/pie-1.png",
+        src: "./pies/pie-1.webp",
         alt: ""
       },
       price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie"    },
@@ -37,7 +37,7 @@ export const data = {
       id: uuidv4(),
       description: "Tart Montmorency cherries topped with brown sugar butter streusel",
       image: {
-        src: "./pies/pie-3.png",
+        src: "./pies/pie-3.webp",
         alt: ""
       },
       price: "$4.5/slice, $23/full pie",
@@ -47,7 +47,7 @@ export const data = {
       id: uuidv4(),
       description: "Wild maine blueberries in our all butter crust",
       image: {
-        src: "./pies/pie-4.png",
+        src: "./pies/pie-4.webp",
         alt: ""
       },
       price: "$10/mini pie, $20/full pie",
@@ -58,7 +58,7 @@ export const data = {
       id: uuidv4(),
       description: "Florida key limes in our graham butter crust topped with sour sugar cream whip",
       image: {
-        src: "./pies/pie-5.png",
+        src: "./pies/pie-5.webp",
         alt: ""
       },
       price: "$5/slice, $12/mini pie, $27/full pie",
@@ -69,7 +69,7 @@ export const data = {
       id: uuidv4(),
       description: "Granny Smith Apple's, cinnamon, nutmeg in our signature all butter crust",
       image: {
-        src: "./pies/pie-6.png",
+        src: "./pies/pie-6.webp",
         alt: ""
       },
       price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie"
@@ -79,7 +79,7 @@ export const data = {
       id: uuidv4(),
       description: "Coconut cream filled with raw and toasted coconut topped with lavender whip.",
       image: {
-        src: "./pies/pie-8.png",
+        src: "./pies/pie-8.webp",
         alt: ""
       },
       price: "$21/mini pie",
@@ -90,7 +90,7 @@ export const data = {
       id: uuidv4(),
       description: "Brown sugar apples topped with bourbon caramel oat crumble ",
       image: {
-        src: "./pies/pie-9.png",
+        src: "./pies/pie-9.webp",
         alt: ""
       },
       price: "$4.5/slice, $11/mini pie, $23/full pie"
