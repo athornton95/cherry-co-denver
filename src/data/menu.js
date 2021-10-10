@@ -8,18 +8,18 @@ export const data = {
       description: "Tart Montmorency cherries in our signature all butter crust",
       image: {
         src: "./pies/pie-7.webp",
-        alt: ""
+        alt: "Tart Cherry pies"
       },
-      price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie",
+      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
       additional: "*Gluten free slices available until sold out, full size take and bake available daily. Vegan take and bake full size also available!*"
     },
     {
       title: "French Silk",
       id: uuidv4(),
-      description: "Creamy guittard chocolate in an oreo butter crust topped with whip",
+      description: "Creamy guittard chocolate in our oreo butter crust topped with whip",
       image: {
         src: "./pies/pie-2.webp",
-        alt: ""
+        alt: "French Silk pie"
       },
       price: "$5/slice, $12/mini pie, $27/full pie"
     },
@@ -29,16 +29,16 @@ export const data = {
       description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
       image: {
         src: "./pies/pie-1.webp",
-        alt: ""
+        alt: "Mixed Berry pie"
       },
-      price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie"    },
+      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"    },
     {
       title: "Cherry Streusel",
       id: uuidv4(),
       description: "Tart Montmorency cherries topped with brown sugar butter streusel",
       image: {
         src: "./pies/pie-3.webp",
-        alt: ""
+        alt: "Cherry Streusel pie"
       },
       price: "$4.5/slice, $23/full pie",
     },
@@ -48,18 +48,18 @@ export const data = {
       description: "Wild maine blueberries in our all butter crust",
       image: {
         src: "./pies/pie-4.webp",
-        alt: ""
+        alt: "Wild Blueberry pie"
       },
       price: "$10/mini pie, $20/full pie",
-      additional: "*Comes as a take and bake. Preorder ahead for a freshly baked pie!*"
+      additional: "*Comes as a take and bake only. Preorder ahead for a freshly baked pie!*"
     },
     {
       title: "Key Lime",
       id: uuidv4(),
-      description: "Florida key limes in our graham butter crust topped with sour sugar cream whip",
+      description: "Florida key lime custard topped with fluffy sour cream whip in our graham cracker crust.",
       image: {
         src: "./pies/pie-5.webp",
-        alt: ""
+        alt: "Key Lime pie"
       },
       price: "$5/slice, $12/mini pie, $27/full pie",
       additional: "*Seasonal Flavor!*"
@@ -70,9 +70,9 @@ export const data = {
       description: "Granny Smith Apple's, cinnamon, nutmeg in our signature all butter crust",
       image: {
         src: "./pies/pie-6.webp",
-        alt: ""
+        alt: "Classic Apple pie"
       },
-      price: "$3/hand pie, $4/slice, $10/mini pie, $20/full pie"
+      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"
     },
     {
       title: "Coconut Cream",
@@ -80,27 +80,57 @@ export const data = {
       description: "Coconut cream filled with raw and toasted coconut topped with lavender whip.",
       image: {
         src: "./pies/pie-8.webp",
-        alt: ""
+        alt: "Coconut Cream pie"
       },
-      price: "$21/mini pie",
+      price: "$21/mini pie, $27/full pie (pre-order only)",
       additional: "*Only available in mini pie in store, pre-order for full!*"
     },
     {
       title: "Apple Bourbon Caramel",
       id: uuidv4(),
-      description: "Brown sugar apples topped with bourbon caramel oat crumble ",
+      description: "Brown sugar apples topped with bourbon caramel oat crumble.",
       image: {
         src: "./pies/pie-9.webp",
-        alt: ""
+        alt: "Apple Bourbon Caramel pie"
       },
       price: "$4.5/slice, $11/mini pie, $23/full pie"
+    },
+    {
+      title: "Nona’s Pumpkin Pie",
+      id: uuidv4(),
+      description: "Spiced pumpkin in our all butter crust topped with cinnamon whip.",
+      image: {
+        src: "",
+        alt: "Nona’s Pumpkin Pie pie"
+      },
+      price: "$4/slice, $10/mini pie, $21/full pie"
+    },
+    {
+      title: "Maple Honey Pecan",
+      id: uuidv4(),
+      description: "Colorado wildflower honey, maple syrup and pecans.",
+      image: {
+        src: "",
+        alt: "Maple Honey Pecan pie"
+      },
+      price: "$5.5/slice, $12.5/mini pie, $29/full pie"
+    },
+    {
+      title: "Lemon Meringue",
+      id: uuidv4(),
+      description: "Tart meyer lemon custard topped with toasted meringue.",
+      image: {
+        src: "",
+        alt: "Lemon Meringue pie"
+      },
+      price: "$27/full pie (pre-order only)"
     }
   ],
   savoryPies: [
     {
       title: "Old Fashioned Chicken",
       id: uuidv4(),
-      description: "Red bird chicken in our creamy herb sauce with celery, peas, carrots, and onions",
+      description: "Red bird chicken in our rosemary sage sauce with celery, peas, carrots, and onions",
       price: "$10/mini pie, $20/full pie",
       additional: "*Hot and ready until sold out! Full size take n bake only, minis available as take and bake too!*"
     },
@@ -114,7 +144,7 @@ export const data = {
     {
       title: "Bison, Bacon, Mushroom & Stout",
       id: uuidv4(),
-      description: "All cooked in our creamy stout beer sauce",
+      description: "All cooked in our house stout sauce made with Founder’s beer",
       price: "$11/mini pie",
       additional: "*Hot and ready until sold out! Minis available as take and bake too!*"
     },
@@ -133,9 +163,9 @@ export const data = {
       additional: "*Hot and ready until sold out! Minis available as take and bake too!*"
     },
     {
-      title: "Ham n' Swiss",
+      title: "Rotating Savory Special",
       id: uuidv4(),
-      description: "Chunks of country ham with swiss cheese served with house honey mustard",
+      description: "Check in for savory specials!",
       price: "$7/hand pie",
       additional: "*Hand pie only!*"
     }

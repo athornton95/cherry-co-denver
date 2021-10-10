@@ -105,7 +105,7 @@ const SimpleModal = (props) => {
     axios.post('https://sheet.best/api/sheets/3933090e-f4a3-4301-85b5-81753abcb5f6', signupObject)
     .then(() => {
       setSubmissionStatus({ 
-        message: 'Thanks for signing up! Our super fun and cool newsletter will be coming to your inbox soon!',
+        message: 'Thanks for signing up! Check your inbox for all the latest and greatest from your neighborhood pie shop!',
         severity: 'success'
       })
       setSuccessSubmitted(true);
@@ -126,7 +126,7 @@ const SimpleModal = (props) => {
     Array.from(document.querySelectorAll("input")).forEach(
       input => (input.value = "")
     );
-    setSignupObject({ email: '', firstName: '', lastName: '', submissionDate: '' });
+    setSignupObject({ email: '', firstName: '', lastName: '', submissionDate });
     setSubmissionStatus({ message: '', severity: '' });
     setSubmitDisabled(false);
     setSuccessSubmitted(false);
@@ -148,9 +148,9 @@ const SimpleModal = (props) => {
               <input type='text' id='firstName' name='firstName' placeholder='Olive' value={signupObject.firstName} onChange={handleChange} />
               <input type='text' id='lastName' name='lastName' placeholder='Cherri-Pye' value={signupObject.lastName} onChange={handleChange} />
             </div>
-            <input type='text' id='email' name='email' placeholder='you@lovepie.com' value={signupObject.email} onChange={handleChange} />
+            <input type='email' id='email' name='email' required placeholder='you@lovepie.com' value={signupObject.email} onChange={handleChange} />
             <input type='hidden' id='date' name='submissionDate' value={submissionDate}/>
-            <input type='submit' className='btn btn-cta form-submit' disabled={signupObject.email === '' || submitDisabled}/>
+            <input type='submit' className='btn btn-cta form-submit' disabled={signupObject.email === '' || submitDisabled || !signupObject.email.includes('@')}/>
           </form>
           {submissionStatus.message !=='' && <p className={`status status-${submissionStatus.severity}`}>{submissionStatus.message}</p>}
         </div>

@@ -64,10 +64,14 @@ const styles = () => css`
       color: #CF2634;
       font-size: .75rem;
 
+      p {
+        margin-bottom: 0;
+      }
+
       .btn-text {
         color: #CF2634;
         text-decoration: underline;
-        font-size: .75rem;
+        font-size: 1rem;
       }
     }
 

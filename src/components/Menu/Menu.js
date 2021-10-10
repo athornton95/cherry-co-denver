@@ -15,6 +15,7 @@ const Menu = () => {
         <div className='menu-section'>
           <div className='menu-title-container'>
             <p className='menu-subtitle'>Sweet Pies</p>
+            <p className='menu-details'>Available Hot n' Ready, or for Take n' Bake</p>
           </div>
           <Grid container alignContent='center' alignItems='flex-start' spacing={4} className="grid-container">
             {sweetPies.map(pie => {
@@ -33,6 +34,7 @@ const Menu = () => {
         <div className='menu-section'>
           <div className='menu-title-container'>
             <p className='menu-subtitle'>Savory Pies</p>
+            <p className='menu-details'>Available Hot n' Ready, or for Take n' Bake</p>
           </div>
           <Grid container alignContent='center' alignItems='flex-start' spacing={4} className="grid-container">
             {savoryPies.map(pie => {

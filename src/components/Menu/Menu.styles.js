@@ -45,7 +45,12 @@ const styles = () => css`
 
   .menu-subtitle {
     font-size: 1.75rem;
+    font-weight: bold;
     text-transform: uppercase;
+  }
+
+  .menu-details {
+    font-size: 1.25rem;
   }
 
   .grid-item-wrapper {
@@ -80,7 +85,7 @@ const styles = () => css`
 
   .additional {
     color: #CF2634;
-    font-size: .75rem;
+    font-size: .85rem;
   }
 
   @keyframes rotation {

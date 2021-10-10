@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='details'>
           <p>4000 Tennyson St Suite 100, Denver, CO 80212</p>
           <p>(303) 635-6748</p>
-          <p>Open Sunday - Thursday from 8am-9pm, Friday - Saturday from 8am-9pm</p>
+          <p>Open Sunday - Thursday from 8am-8pm, Friday - Saturday from 8am-9pm</p>
         </div>
         <div className='social'>
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

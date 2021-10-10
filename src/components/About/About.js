@@ -7,7 +7,7 @@ const About = () => {
     <section css={styles} id="about">
       <div className='section-header'>
         <h3 className='title'>Our Story</h3>
-        <p className='description'>Our story begins overview description text blah blah lorem ipsum yada yada.</p>
+        {/* <p className='description'>Our story begins overview description text blah blah lorem ipsum yada yada.</p> */}
       </div>
       <SideBySide
         position="image-right"
@@ -18,12 +18,12 @@ const About = () => {
           }
         }
         title={"1929"}
-        text={"Great Grandma Katherine opens up fruit stand famous for pie and cherry cider outside of Lake Geneva Wisconsin. Great Grandma Katherine opens up fruit stand famous for pie and cherry cider outside of Lake Geneva Wisconsin."}
+        text={"It all began at a small fruit stand outside of Lake Geneva, Wisconsin. Great Grandma Katherine quickly builds a reputation for her pie and cider attracting visitors from all over the midwest. The pies are known for their flaky crust with homemade, honest ingredients."}
       />
       <SideBySide
         position="image-left"
         title={"1950s"}
-        text={"Lehnert family moves to northern Colorado where region is known for tart cherries. Continue tradition of pie and cherry cider. Lehnert family moves to northern Colorado where region is known for tart cherries. Continue tradition of pie and cherry cider."}
+        text={"Lehnerts bid farewell to the midwest and set up camp in Loveland, CO, where the region is known for their tart cherries. The Colorado Cherry Company is born and the family continues the tradition of pie and cherry cider."}
         image={
           {
             src: "./cc-1950.webp",
@@ -34,7 +34,7 @@ const About = () => {
       <SideBySide
         position="image-right"
         title={"2021"}
-        text={"3rd generation Lehnerts open shops by Estes Park and 4th generation opens in Denver on Tennyson St, March 2021. 3rd generation Lehnerts open shops by Estes Park and 4th generation opens in Denver on Tennyson St, March 2021."}
+        text={"Lehnert family opens shops by Estes Park, making the Cherry Co a go to stop for pie and cider on your way to Rocky Mountain National Park. 4th generation moves to Denver and opens on Tennyson St, March 2021 hoping to share all the goodness from Great Grandma’s recipes."}
         image={
           {
             src: "./cc-2021.webp",
