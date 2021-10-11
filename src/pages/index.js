@@ -8,7 +8,8 @@ const IndexPage = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Colorado Cherry Co, Pie + Provisions</title>
-      <description>Fourth generation neighborhood pie shop, located in Denver, CO.</description>
+      <meta name="keywords" content="pie shop, local pie, cherry pie, pie" />
+      <meta name="description" content="Fourth generation neighborhood pie shop, located in Denver, CO." />
       <link rel="canonical" href="https://coloradocherrycodenver.com/"/>
       <meta name="icon" href='../favicon.ico' />
     </Helmet>
