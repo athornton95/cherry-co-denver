@@ -100,7 +100,7 @@ export const data = {
       id: uuidv4(),
       description: "Spiced pumpkin in our all butter crust topped with cinnamon whip.",
       image: {
-        src: "",
+        src: "./pies/pumpkin-pie.webp",
         alt: "Nona’s Pumpkin Pie pie"
       },
       price: "$4/slice, $10/mini pie, $21/full pie"
@@ -110,7 +110,7 @@ export const data = {
       id: uuidv4(),
       description: "Colorado wildflower honey, maple syrup and pecans.",
       image: {
-        src: "",
+        src: "./pies/pecan-pie.webp",
         alt: "Maple Honey Pecan pie"
       },
       price: "$5.5/slice, $12.5/mini pie, $29/full pie"
