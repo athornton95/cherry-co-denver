@@ -23,8 +23,12 @@ const styles = () => css`
   }
 
   .nav-container {
-    box-shadow: none;
+    @media (max-width: 720px) {
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    }
     padding: 0 2rem;
+    box-shadow: none;
   }
 
   .nav {
