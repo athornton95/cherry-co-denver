@@ -1,54 +1,46 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { css } from '@emotion/react';
+import { Layout, Navigation } from '../components'
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+const styles = () => css`
+  .wrapper {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 15rem);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+  .title {
+    font-family: "bello-caps", sans-serif;
+    font-size: 10rem;
+    color: #CF2634;
+    line-height: 1;
+    @media (min-width: 600px){
+      font-size: 15rem;
+    }
+  }
 
-// markup
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+  .text {
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+  }
+`;
+
+const NotFoundPage = () => (
+  <Layout>
+    <Navigation />
+    <div css={styles}>
+      <div className='wrapper'>
+        <h1 className='title'>404</h1>
+        <p className='text'>We're sorry, the page you're looking for does not exist.</p>
+        <Link className='btn btn-cta' to="/">Go home</Link>
+      </div>
+    </div>
+  </Layout>
+);
 
 export default NotFoundPage
