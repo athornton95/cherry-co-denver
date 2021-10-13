@@ -61,7 +61,7 @@ const styles = () => css`
     height: 250px;
     width: 250px;
     animation: rotation 35s infinite linear;
-    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0.1rem .5rem .5rem rgba(0, 0, 0, 0.2));
   }
 
   .title {

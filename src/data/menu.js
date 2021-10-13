@@ -7,93 +7,115 @@ export const data = {
       id: uuidv4(),
       description: "Tart Montmorency cherries in our signature all butter crust",
       image: {
-        src: "./pies/pie-7.webp",
-        alt: "Tart Cherry pies"
+        src: "./pies/cherry-pie.webp",
+        alt: "Tart Cherry pie"
       },
       price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
       additional: "*Gluten free slices available until sold out, full size take and bake available daily. Vegan take and bake full size also available!*"
     },
     {
-      title: "French Silk",
+      title: "Gluten Free Tart Cherry",
       id: uuidv4(),
-      description: "Creamy guittard chocolate in our oreo butter crust topped with whip",
+      description: "Tart Montmorency cherries in our signature all butter crust",
       image: {
-        src: "./pies/pie-2.webp",
-        alt: "French Silk pie"
+        src: "./pies/cherry-pie-gf.webp",
+        alt: "Gluten Free Tart Cherry pie"
       },
-      price: "$5/slice, $12/mini pie, $27/full pie"
+      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
+      additional: "*Gluten free slices available until sold out, full size take and bake available daily. Vegan take and bake full size also available!*"
+    },
+    {
+      title: "Cherry Streusel",
+      id: uuidv4(),
+      description: "Tart Montmorency cherries topped with brown sugar butter streusel",
+      image: {
+        src: "./pies/cherry-streusel-pie.webp",
+        alt: "Cherry Streusel pie"
+      },
+      price: "$4.5/slice, $23/full pie",
     },
     {
       title: "Mixed Berry",
       id: uuidv4(),
       description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
       image: {
-        src: "./pies/pie-1.webp",
+        src: "./pies/mixed-berry-pie.webp",
         alt: "Mixed Berry pie"
       },
-      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"    },
-    {
-      title: "Cherry Streusel",
-      id: uuidv4(),
-      description: "Tart Montmorency cherries topped with brown sugar butter streusel",
-      image: {
-        src: "./pies/pie-3.webp",
-        alt: "Cherry Streusel pie"
-      },
-      price: "$4.5/slice, $23/full pie",
-    },
-    {
-      title: "Wild Blueberry",
-      id: uuidv4(),
-      description: "Wild maine blueberries in our all butter crust",
-      image: {
-        src: "./pies/pie-4.webp",
-        alt: "Wild Blueberry pie"
-      },
-      price: "$10/mini pie, $20/full pie",
-      additional: "*Comes as a take and bake only. Preorder ahead for a freshly baked pie!*"
-    },
-    {
-      title: "Key Lime",
-      id: uuidv4(),
-      description: "Florida key lime custard topped with fluffy sour cream whip in our graham cracker crust.",
-      image: {
-        src: "./pies/pie-5.webp",
-        alt: "Key Lime pie"
-      },
-      price: "$5/slice, $12/mini pie, $27/full pie",
-      additional: "*Seasonal Flavor!*"
+      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"    
     },
     {
       title: "Classic Apple",
       id: uuidv4(),
       description: "Granny Smith Apple's, cinnamon, nutmeg in our signature all butter crust",
       image: {
-        src: "./pies/pie-6.webp",
+        src: "./pies/apple-pie.webp",
         alt: "Classic Apple pie"
       },
       price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"
     },
     {
-      title: "Coconut Cream",
+      title: "Wild Blueberry",
       id: uuidv4(),
-      description: "Coconut cream filled with raw and toasted coconut topped with lavender whip.",
+      description: "Wild maine blueberries in our all butter crust",
       image: {
-        src: "./pies/pie-8.webp",
-        alt: "Coconut Cream pie"
+        src: "./pies/blueberry-pie.webp",
+        alt: "Wild Blueberry pie"
       },
-      price: "$21/mini pie, $27/full pie (pre-order only)",
-      additional: "*Only available in mini pie in store, pre-order for full!*"
+      price: "$10/mini pie, $20/full pie",
+      additional: "*Comes as a take and bake only. Preorder ahead for a freshly baked pie!*"
     },
     {
       title: "Apple Bourbon Caramel",
       id: uuidv4(),
       description: "Brown sugar apples topped with bourbon caramel oat crumble.",
       image: {
-        src: "./pies/pie-9.webp",
+        src: "./pies/abc-pie.webp",
         alt: "Apple Bourbon Caramel pie"
       },
       price: "$4.5/slice, $11/mini pie, $23/full pie"
+    },
+    {
+      title: "French Silk",
+      id: uuidv4(),
+      description: "Creamy guittard chocolate in our oreo butter crust topped with whip",
+      image: {
+        src: "./pies/french-silk-pie.webp",
+        alt: "French Silk pie"
+      },
+      price: "$5/slice, $12/mini pie, $27/full pie"
+    },
+    {
+      title: "Key Lime",
+      id: uuidv4(),
+      description: "Florida key lime custard topped with fluffy sour cream whip in our graham cracker crust.",
+      image: {
+        src: "./pies/key-lime-pie.webp",
+        alt: "Key Lime pie"
+      },
+      price: "$5/slice, $12/mini pie, $27/full pie",
+      additional: "*Seasonal Flavor!*"
+    },
+    {
+      title: "Coconut Cream",
+      id: uuidv4(),
+      description: "Coconut cream filled with raw and toasted coconut topped with lavender whip.",
+      image: {
+        src: "./pies/coconut-pie.webp",
+        alt: "Coconut Cream pie"
+      },
+      price: "$21/mini pie, $27/full pie (pre-order only)",
+      additional: "*Only available in mini pie in store, pre-order for full!*"
+    },
+    {
+      title: "Lemon Meringue",
+      id: uuidv4(),
+      description: "Tart meyer lemon custard topped with toasted meringue.",
+      image: {
+        src: "./pies/lemon-meringue-pie.webp",
+        alt: "Lemon Meringue pie"
+      },
+      price: "$27/full pie (pre-order only)"
     },
     {
       title: "Nona’s Pumpkin Pie",
@@ -114,16 +136,6 @@ export const data = {
         alt: "Maple Honey Pecan pie"
       },
       price: "$5.5/slice, $12.5/mini pie, $29/full pie"
-    },
-    {
-      title: "Lemon Meringue",
-      id: uuidv4(),
-      description: "Tart meyer lemon custard topped with toasted meringue.",
-      image: {
-        src: "",
-        alt: "Lemon Meringue pie"
-      },
-      price: "$27/full pie (pre-order only)"
     }
   ],
   savoryPies: [
