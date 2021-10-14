@@ -11,18 +11,18 @@ export const data = {
         alt: "Tart Cherry pie"
       },
       price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
-      additional: "*Gluten free slices available until sold out, full size take and bake available daily. Vegan take and bake full size also available!*"
+      additional: "*Vegan take and bake full size available!*"
     },
     {
       title: "Gluten Free Tart Cherry",
       id: uuidv4(),
-      description: "Tart Montmorency cherries in our signature all butter crust",
+      description: "Tart Montmorency cherries in our signature gluten free all butter crust",
       image: {
         src: "./pies/cherry-pie-gf.webp",
         alt: "Gluten Free Tart Cherry pie"
       },
-      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
-      additional: "*Gluten free slices available until sold out, full size take and bake available daily. Vegan take and bake full size also available!*"
+      price: "$4.5/slice, $24/full pie",
+      additional: "*Gluten free slices available until sold out, full size take and bake available daily.*"
     },
     {
       title: "Cherry Streusel",

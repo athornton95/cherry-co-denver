@@ -86,16 +86,19 @@ const SimpleModal = (props) => {
             <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
           </svg>
         </div>
-        <p className='modal-title' id="simple-modal-title">We're stoked you want to order!</p>
+        <p className='modal-title' id="simple-modal-title">Yay for Thanksgiving pie!</p>
         <p >
-          And online ordering will be made available to everyone soon.
+          To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
         <p>
-        As of now though, online ordering is available for <span className='emphasis'>local pick up only</span>. 
+          Please note: Pick up dates are November 22-24th <span className='emphasis'>in store only</span>. 
+        </p>
+        <p>
+          Questions or to order over the phone, call us at 303-635-6748. 
         </p>
         <div className='button-grid'>
-          <a href="#" className='btn btn-cta'>
-            Continue to pie
+          <a href="https://www.toasttab.com/colorado-cherry-co%20-pie-provisions/v3" target='_blank' rel="noopener noreferrer" className='btn btn-cta'>
+            Preorder Now
           </a>
         </div>
       </div>
@@ -127,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Thanksgiving Pie Pre-Orders Are Open!</p>
+          <p>Thanksgiving Pie Preorders Are Open!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -145,7 +148,7 @@ const Navigation = () => {
                 Events
               </Link>
               <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                Pre-order for Thanksgiving
+                Thanksgiving Pie Preorder
               </button>
             </div>
           </div>
