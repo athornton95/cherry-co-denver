@@ -5,9 +5,10 @@ const styles = () => css`
   top: 0;
   z-index: 50;
   background-color: white;
-  @media (min-width: 600px) {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  
+  @media (min-width: 720px) {
     padding: 0 0 1rem 0;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
 
   .nav-secondary {
@@ -16,7 +17,7 @@ const styles = () => css`
     text-align: center;
     padding: .5rem 2rem;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    @media (min-width: 600px) {
+    @media (min-width: 721px) {
       box-shadow: none;
       margin-bottom: 1rem;
     }
@@ -25,7 +26,6 @@ const styles = () => css`
   .nav-container {
     @media (max-width: 720px) {
       padding: 1rem 2rem;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     }
     padding: 0 2rem;
     box-shadow: none;

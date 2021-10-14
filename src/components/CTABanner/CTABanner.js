@@ -186,8 +186,8 @@ const CTABanner = () => {
           <div className='stage'>
             <button onClick={handleOpen} className='btn btn-white'>Join Our Email List</button>
             <div className="social">
-              <a href="https://www.instagram.com/coloradocherrycompany/"><img className='social-icon' src="./icons/instagram-icon.svg" alt="Instagram Icon"/></a>
-              <a href="https://www.facebook.com/CoCherryCO"><img className='social-icon' src="./icons/facebook-icon.svg" alt="Facebook Icon" /></a>
+              <a href="https://www.instagram.com/coloradocherrycompany/" target='_blank' rel="noopener noreferrer"><img className='social-icon' src="./icons/instagram-icon.svg" alt="Instagram Icon"/></a>
+              <a href="https://www.facebook.com/CoCherryCO" target='_blank' rel="noopener noreferrer"><img className='social-icon' src="./icons/facebook-icon.svg" alt="Facebook Icon" /></a>
             </div>
           </div>
         </div>
