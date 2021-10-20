@@ -1,4 +1,5 @@
 export { default as About } from './About/About';
+export { default as Careers } from './Careers/Careers';
 export { default as CTABanner } from './CTABanner/CTABanner';
 export { default as Menu } from './Menu/Menu';
 export { default as Example } from './Example/Example';

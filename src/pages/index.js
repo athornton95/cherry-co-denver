@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet"
 import { Container } from '@material-ui/core';
-import { About, CTABanner, Events, Menu, Footer, Hero, ImageBanner, Layout, Navigation } from '../components';
+import { About, Careers, CTABanner, Events, Menu, Footer, Hero, ImageBanner, Layout, Navigation } from '../components';
 
 const IndexPage = () => (
   <>
@@ -32,6 +32,7 @@ const IndexPage = () => (
             <Events/>
           </Container>
         </div>
+        <Careers/>
         <ImageBanner/>
       </div>
       <Footer />
