@@ -105,7 +105,7 @@ export const data = {
         alt: "Coconut Cream pie"
       },
       price: "$27/full pie",
-      additional: "*Pre-order onlg!*"
+      additional: "*Pre-order only!*"
     },
     {
       title: "Lemon Meringue",
