@@ -93,7 +93,7 @@ export const data = {
         src: "./pies/key-lime-pie.webp",
         alt: "Key Lime pie"
       },
-      price: "$5/slice, $12/mini pie, $27/full pie",
+      price: "$12/mini pie",
       additional: "*Seasonal Flavor!*"
     },
     {
@@ -104,8 +104,8 @@ export const data = {
         src: "./pies/coconut-pie.webp",
         alt: "Coconut Cream pie"
       },
-      price: "$21/mini pie, $27/full pie (pre-order only)",
-      additional: "*Only available in mini pie in store, pre-order for full!*"
+      price: "$27/full pie",
+      additional: "*Pre-order onlg!*"
     },
     {
       title: "Lemon Meringue",
