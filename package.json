@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@emotion/core": "^11.0.0",
@@ -32,5 +33,8 @@
     "react-helmet": "^6.1.0",
     "uuid": "^8.3.2"
   },
-  "proxy": "https://cat-fact.herokuapp.com/"
+  "proxy": "https://cat-fact.herokuapp.com/",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
