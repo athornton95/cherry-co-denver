@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Thanksgiving preorders are sold out! We plan on having extra pies to sell 11/22 - 11/24 in the shop!</p>
+          <p>Thanksgiving pre-orders are sold out! We plan on having extra pies to sell 11/22 - 11/24 in the shop!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
