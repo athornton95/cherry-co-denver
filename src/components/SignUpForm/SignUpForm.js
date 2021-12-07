@@ -4,6 +4,8 @@ import styles from './SignUpForm.styles';
 
 const SignUpForm = () => {
   const [signupObject, setSignupObject] = useState({ EMAIL: '', FNAME: '', LNAME: '' });
+  const [submitMessage, setSubmitMessage] = useState(null);
+  const [buttonText, setButtonText] = useState('Subscribe')
 
   const handleChange = (e) => {
     const value = e.target.value;
@@ -12,6 +14,22 @@ const SignUpForm = () => {
       [e.target.name]: value
     })
   }
+
+  const handleClick = () => {
+    setSubmitMessage(
+      signupObject.EMAIL && signupObject.FNAME && signupObject.LNAME ? 
+      'Please give us a couple of minutes to send your email, we are cleaning the dough off of our hands!If you do not see the email in your inbox within 3-4 minutes, please check your SPAM or "Promotions" folders for the email containing your coupon. If you still cannot find it, please email us at hello@coloradocherrycodenver.com and we woll help you out!'
+      :
+      'Please fill out all fields'
+    );
+    setButtonText(
+      signupObject.EMAIL && signupObject.FNAME && signupObject.LNAME ? 
+      'Thank you!'
+      : 'Subscribe'
+    );
+  };
+
+  const disabledBool = (buttonText === 'Thank you!');
 
   return (
     <div css={styles}>
@@ -23,21 +41,21 @@ const SignUpForm = () => {
           </div>
           <form action="https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
             <div id="mc_embed_signup_scroll">
-              <div className="mc-field-group">
+              <div className="input-wrapper">
                 <label htmlFor="mce-EMAIL">
                   Email Address
                   <span className="asterisk">*</span>
                 </label>
                 <input type="email" value={signupObject.EMAIL} name="EMAIL" className="required email" required id="mce-EMAIL" onChange={handleChange}/>
               </div>
-              <div className="mc-field-group">
+              <div className="input-wrapper">
                 <label htmlFor="mce-FNAME">
                   First Name 
                   <span className="asterisk">*</span>
                 </label>
                 <input type="text" value={signupObject.FNAME} name="FNAME" className="required" required id="mce-FNAME" onChange={handleChange}/>
               </div>
-              <div className="mc-field-group">
+              <div className="input-wrapper">
                 <label htmlFor="mce-LNAME">
                   Last Name  
                   <span className="asterisk">*</span>
@@ -51,10 +69,18 @@ const SignUpForm = () => {
               <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
                 <input type="text" name="b_5a6882396bcabcd1667a6d9b3_d47d40abc7" tabIndex="-1" value="" readOnly />
               </div>
-              <div className="clear">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-cta" />
+              <div className="submit-wrapper">
+                <input 
+                  value={buttonText}
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  className="btn btn-cta"
+                  onClick={handleClick}
+                  disabled={disabledBool}
+                />
               </div>
             </div>
+            {submitMessage && <p>{submitMessage}</p>}
           </form>
         </div>
       </Container>

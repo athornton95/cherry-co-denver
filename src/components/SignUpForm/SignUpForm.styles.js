@@ -6,7 +6,7 @@ const styles = () => css`
   h1 {
     font-size: 1.5rem;
     @media (min-width: 760px) {
-      font-size: 1.75rem;
+      font-size: 2rem;
     }
   }
 
@@ -31,16 +31,48 @@ const styles = () => css`
       border-radius: .5rem;
       border: 2px solid #CF2634;
       background-color: white;
+      display: flex;
+
+
+      .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+        min-height: 50px;
+
+        input {
+          display: flex;
+          max-width: 100%;
+          padding: 8px;
+          text-indent: 2%;
+        }
+      }
     }
 
+    
     .btn {
       margin: 1rem 0 !important;
       width: 96.5% !important;
       border-color: transparent !important;
     }
-
+    
     .title {
       padding-bottom: 1rem;
+    }
+
+    .submit-wrapper {
+      display: flex !important;
+      width: 100% !important;
+
+      input {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+
+      input[disabled] {
+        pointer-events: none;
+        background-color: grey;
+      }
     }
   }
 `;
