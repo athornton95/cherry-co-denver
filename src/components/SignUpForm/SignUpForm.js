@@ -39,7 +39,7 @@ const SignUpForm = () => {
             <h1>Sign up for our e-mail list</h1>
             <h3>& get a free slice of pie!</h3>
           </div>
-          <form action="https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate onSubmit={handleClick}>
+          <form action="https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate onSubmit={handleClick}>
             <div id="mc_embed_signup_scroll">
               <div className="input-wrapper">
                 <label htmlFor="mce-EMAIL">
