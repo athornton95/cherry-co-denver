@@ -76,16 +76,6 @@ export const data = {
       price: "$4.5/slice, $11/mini pie, $23/full pie"
     },
     {
-      title: "French Silk",
-      id: uuidv4(),
-      description: "Creamy guittard chocolate in our oreo butter crust topped with whip",
-      image: {
-        src: "./pies/french-silk-pie.webp",
-        alt: "French Silk pie"
-      },
-      price: "$5/slice, $12/mini pie, $27/full pie"
-    },
-    {
       title: "Key Lime",
       id: uuidv4(),
       description: "Florida key lime custard topped with fluffy sour cream whip in our graham cracker crust.",
@@ -117,25 +107,55 @@ export const data = {
       },
       price: "$27/full pie (pre-order only)"
     },
+    // {
+    //   title: "Nona’s Pumpkin Pie",
+    //   id: uuidv4(),
+    //   description: "Spiced pumpkin in our all butter crust topped with cinnamon whip.",
+    //   image: {
+    //     src: "./pies/pumpkin-pie.webp",
+    //     alt: "Nona’s Pumpkin Pie pie"
+    //   },
+    //   price: "$4/slice, $10/mini pie, $21/full pie"
+    // },
     {
-      title: "Nona’s Pumpkin Pie",
+      title: "Peppermint Mocha French Silk",
       id: uuidv4(),
-      description: "Spiced pumpkin in our all butter crust topped with cinnamon whip.",
-      image: {
-        src: "./pies/pumpkin-pie.webp",
-        alt: "Nona’s Pumpkin Pie pie"
-      },
-      price: "$4/slice, $10/mini pie, $21/full pie"
+      description: "Our classic french silk with peppermint and coffee (decaf).",
+      // image: {
+      //   src: "./pies/french-silk-pie.webp",
+      //   alt: "French Silk pie"
+      // },
+      price: "$5/slice, $12/mini pie, $28/full pie"
     },
     {
-      title: "Maple Honey Pecan",
+      title: "Chocolate Pecan",
       id: uuidv4(),
-      description: "Colorado wildflower honey, maple syrup and pecans.",
-      image: {
-        src: "./pies/pecan-pie.webp",
-        alt: "Maple Honey Pecan pie"
-      },
-      price: "$5.5/slice, $12.5/mini pie, $29/full pie"
+      description: "Our classic apple honey pecan, with a black bottom ganache.",
+      // image: {
+      //   src: "./pies/pecan-pie.webp",
+      //   alt: "Maple Honey Pecan pie"
+      // },
+      price: "$5.5/slice, $12.5/mini pie, $30/full pie"
+    },
+    {
+      title: "Malted Chocolate Chess",
+      id: uuidv4(),
+      description: "A southern favorite, like a gooey, chocolate malt brownie.",
+      // image: {
+      //   src: "./pies/pecan-pie.webp",
+      //   alt: "Maple Honey Pecan pie"
+      // },
+      price: "$5.5/slice, $12.5/mini pie, $30/full pie"
+    },
+    {
+      title: "Cranberry Pear Ginger",
+      id: uuidv4(),
+      description: "Tangy and crisp, with our signature all butter double crust.",
+      // image: {
+      //   src: "./pies/pecan-pie.webp",
+      //   alt: "Maple Honey Pecan pie"
+      // },
+      price: "$5.5/slice, $12.5/mini pie, $30/full pie"
     }
   ],
   savoryPies: [
