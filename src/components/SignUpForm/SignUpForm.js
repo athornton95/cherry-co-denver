@@ -39,7 +39,7 @@ const SignUpForm = () => {
             <h1>Sign up for our e-mail list</h1>
             <h3>& get a free slice of pie!</h3>
           </div>
-          <form action="https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+          <form action="https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate onSubmit={handleClick}>
             <div id="mc_embed_signup_scroll">
               <div className="input-wrapper">
                 <label htmlFor="mce-EMAIL">
@@ -67,15 +67,19 @@ const SignUpForm = () => {
                 <div className="response" id="mce-success-response" style={{ display: 'none' }}></div>
               </div>
               <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
-                <input type="text" name="b_5a6882396bcabcd1667a6d9b3_d47d40abc7" tabIndex="-1" value="" readOnly />
+                <input type="text" name="b_5a6882396bcabcd1667a6d9b3_d47d40abc7" tabIndex="-1" value="" />
               </div>
-              <div className="submit-wrapper">
+              <div className="clear submit-wrapper">
+                {/* <label 
+                  htmlFor='subscribe'
+                  onClick={handleClick}
+                /> */}
                 <input 
                   value={buttonText}
+                  type='submit'
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   className="btn btn-cta"
-                  onClick={handleClick}
                   disabled={disabledBool}
                 />
               </div>
