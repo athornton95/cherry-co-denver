@@ -70,10 +70,6 @@ const SignUpForm = () => {
                 <input type="text" name="b_5a6882396bcabcd1667a6d9b3_d47d40abc7" tabIndex="-1" value="" />
               </div>
               <div className="clear submit-wrapper">
-                {/* <label 
-                  htmlFor='subscribe'
-                  onClick={handleClick}
-                /> */}
                 <input 
                   value={buttonText}
                   type='submit'
