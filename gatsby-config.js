@@ -31,6 +31,12 @@ module.exports = {
       options: {
         endpoint: 'https://coloradocherrycodenver.us6.list-manage.com/subscribe/post?u=5a6882396bcabcd1667a6d9b3&amp;id=d47d40abc7'
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: process.env.FB_PIXEL_ID,
+      },
+    },
   ]
 };
