@@ -6,7 +6,6 @@ const styles = () => css`
     background: rgb(57,108,55);
     background: linear-gradient(90deg, rgba(57,108,55,1) 0%, rgba(115,170,112,1) 0%, rgba(98,148,96,1) 100%);
     padding: 4rem;
-    padding-bottom: 10rem;
     display: flex;
     align-items: center;
     flex-direction: column;

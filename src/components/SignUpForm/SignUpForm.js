@@ -18,7 +18,7 @@ const SignUpForm = () => {
   const handleClick = () => {
     setSubmitMessage(
       signupObject.EMAIL && signupObject.FNAME && signupObject.LNAME ? 
-      'Please give us a couple of minutes to send your email, we are cleaning the dough off of our hands!If you do not see the email in your inbox within 3-4 minutes, please check your SPAM or "Promotions" folders for the email containing your coupon. If you still cannot find it, please email us at hello@coloradocherrycodenver.com and we woll help you out!'
+      "Please give us a couple of minutes to send your email, we're cleaning the dough off of our hands! If you don't see the email in your inbox within 3-4 minutes, please check your SPAM or 'Promotions' folders for the email containing your coupon. If you still can't find it, please email us at hello@coloradocherrycodenver.com and we'll help you out!"
       :
       'Please fill out all fields'
     );
@@ -29,7 +29,7 @@ const SignUpForm = () => {
     );
   };
 
-  const disabledBool = (buttonText === 'Thank you!');
+  const disabledBool = (buttonText === 'Thank you!' || (!signupObject.EMAIL || !signupObject.FNAME || !signupObject.LNAME));
 
   return (
     <div css={styles}>
@@ -80,6 +80,7 @@ const SignUpForm = () => {
                 />
               </div>
             </div>
+            <p className='note'><span className="asterisk">*</span>required</p>
             {submitMessage && <p>{submitMessage}</p>}
           </form>
         </div>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet"
-import { Layout, SignUpForm } from '../components';
+import { Footer, Layout, SignUpForm } from '../components';
 import SimpleNav from "../components/SimpleNav/SimpleNav";
 
 const FreePie = () => {
@@ -19,6 +19,9 @@ const FreePie = () => {
       <Layout>
         <SimpleNav />
         <SignUpForm />
+        <Footer
+          padding={false}
+        />
       </Layout>
     </>
   );
