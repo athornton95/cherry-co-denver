@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet"
-import { Footer, Layout, SignUpForm } from '../components';
-import SimpleNav from "../components/SimpleNav/SimpleNav";
+import { Footer, Layout, SignUpForm } from '../../components';
+import SimpleNav from "../../components/SimpleNav/SimpleNav";
 
 const FreePie = () => {
   return (

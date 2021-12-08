@@ -8,7 +8,7 @@ const Footer = ({ padding }) => {
     <div css={styles}>
       <div className='footer' style={{ paddingBottom: paddingBottom }}>
         <div className='logo'>
-          <img src="./cherry-co-logo-white.webp" alt="Colorado Cherry Co. Logo"/>
+          <img src={padding ? './cherry-co-logo-white.webp' : '../cherry-co-logo-white.webp'} alt="Colorado Cherry Co. Logo"/>
         </div>
         <div className='details'>
           <p>4000 Tennyson St Suite 100, Denver, CO 80212</p>
