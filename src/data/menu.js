@@ -125,7 +125,7 @@ export const data = {
       //   src: "./pies/french-silk-pie.webp",
       //   alt: "French Silk pie"
       // },
-      price: "$28/full pie, slices & mini pies available — call for pricing"
+      price: "$28/full pie, slices & mini pies available"
     },
     {
       title: "Chocolate Pecan",
@@ -135,7 +135,7 @@ export const data = {
       //   src: "./pies/pecan-pie.webp",
       //   alt: "Maple Honey Pecan pie"
       // },
-      price: "$30/full pie, slices & mini pies available — call for pricing"
+      price: "$30/full pie, slices & mini pies available"
     },
     {
       title: "Malted Chocolate Chess",
@@ -145,7 +145,7 @@ export const data = {
       //   src: "./pies/pecan-pie.webp",
       //   alt: "Maple Honey Pecan pie"
       // },
-      price: "Slices & mini pies available — call for pricing"
+      price: "Slices & mini pies available"
     },
     {
       title: "Cranberry Pear Ginger",
@@ -155,7 +155,7 @@ export const data = {
       //   src: "./pies/pecan-pie.webp",
       //   alt: "Maple Honey Pecan pie"
       // },
-      price: "Slices & mini pies available — call for pricing"
+      price: "Slices & mini pies available"
     }
   ],
   savoryPies: [
