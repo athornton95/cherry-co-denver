@@ -8,7 +8,7 @@ const FreePie = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Free Pie!</title>
-      <meta name="robots" content="noindex,nofollow" />
+      {/* <meta name="robots" content="noindex,nofollow" /> */}
       <meta name="keywords" content="pie shop, local pie, cherry pie, pie" />
       <meta name="description" content="Sign up htmlFor out mailing list and receive a coupon htmlFor free slice of pie from our Tennyson St. location." />
       <link rel="canonical" href="https://coloradocherrycodenver.com/free-pie"/>
