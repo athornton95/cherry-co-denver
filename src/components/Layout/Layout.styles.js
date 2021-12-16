@@ -204,6 +204,21 @@ hr {
         flex: 1;
       }
 
+      .asterisk {
+        padding-left: 2px;
+        color: red;
+      }
+
+      .note {
+        font-style: italic;
+        font-size: .75rem;
+        text-align: right;
+  
+        .asterisk {
+          font-style: normal;
+        }
+      }
+
       .form-submit[disabled] {
         background-color: darkGrey;
         color: grey;
@@ -219,12 +234,21 @@ hr {
           flex-direction: row;
         }
 
-        #lastName {
-          margin-top: 1rem;
+        .wrapper-firstName {
+          @media (max-width: 1024px) {
+            margin-bottom: 1rem;
+          }
+        }
 
+        .wrapper-lastName {
+          @media (min-width: 1024px) {
+            margin-left: 1rem;
+          }
+        }
+
+        #lastName {
           @media (min-width: 1024px) {
             margin-top: 0;
-            margin-left: 1rem;
           }
         }
       }

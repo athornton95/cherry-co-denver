@@ -9,10 +9,11 @@ const modalStyles = () => css`
   .modal {
     position: absolute;
     width: 280px !important;
+    top: 10%;
     @media (min-width: 1024px) {
       width: 600px !important;
+      top: 25%;
     }
-    top: 25%;
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
@@ -25,6 +26,12 @@ const modalStyles = () => css`
     color: #CF2634;
     font-size: 2rem;
     font-weight: bold;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .button-grid {
@@ -145,12 +152,29 @@ const SimpleModal = (props) => {
           <p className='form-header'>{headerMessage}</p>
           <form id='signup-form' className={successSubmitted ? 'hide' : 'show'} onSubmit={handleSubmit}>
             <div className='form-group-names'>
-              <input type='text' id='firstName' name='firstName' placeholder='Olive' value={signupObject.firstName} onChange={handleChange} />
-              <input type='text' id='lastName' name='lastName' placeholder='Cherri-Pye' value={signupObject.lastName} onChange={handleChange} />
+              <div className='input-wrapper wrapper-firstName'>
+                <label htmlFor='firstName'>
+                  First Name
+                  <span className="asterisk">*</span>
+                </label>
+                <input type='text' id='firstName' name='firstName' placeholder='Olive' value={signupObject.firstName} onChange={handleChange} />
+              </div>
+              <div className='input-wrapper wrapper-lastName'>
+                <label htmlFor='lastName'>
+                  Last Name
+                  <span className="asterisk">*</span>
+                </label>
+                <input type='text' id='lastName' name='lastName' placeholder='Cherri-Pye' value={signupObject.lastName} onChange={handleChange} />
+              </div>
             </div>
+            <label htmlFor='email'>
+              Email
+              <span className="asterisk">*</span>
+            </label>
             <input type='email' id='email' name='email' required placeholder='you@lovepie.com' value={signupObject.email} onChange={handleChange} />
             <input type='hidden' id='date' name='submissionDate' value={submissionDate}/>
             <input type='submit' className='btn btn-cta form-submit' disabled={signupObject.email === '' || submitDisabled || !signupObject.email.includes('@')}/>
+            <p className='note'><span className="asterisk">*</span>required</p>
           </form>
           {submissionStatus.message !=='' && <p className={`status status-${submissionStatus.severity}`}>{submissionStatus.message}</p>}
         </div>

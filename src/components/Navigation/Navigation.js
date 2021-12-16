@@ -134,9 +134,9 @@ const Navigation = () => {
         </div>
         <div className='nav-container'>
           <div className='nav'>
-            <div className='logo'>
-              <img src='/cherry-co-logo-badge.webp' alt='' />
-            </div>
+            <Link to="/" className='logo'>
+              <img src='/cherry-co-logo-badge.webp' alt='Cherry Co badge' />
+            </Link>
             <div className='nav-links'>
               <Link className='nav-link' to="/#menu">
                 Menu

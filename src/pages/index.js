@@ -35,7 +35,9 @@ const IndexPage = () => (
         <Careers/>
         <ImageBanner/>
       </div>
-      <Footer />
+      <Footer 
+        padding={true}
+      />
     </Layout>
   </>
 );

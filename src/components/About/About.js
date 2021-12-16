@@ -7,7 +7,6 @@ const About = () => {
     <section css={styles} id="about">
       <div className='section-header'>
         <h3 className='title'>Our Story</h3>
-        {/* <p className='description'>Our story begins overview description text blah blah lorem ipsum yada yada.</p> */}
       </div>
       <SideBySide
         position="image-right"
