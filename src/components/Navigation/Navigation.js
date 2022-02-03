@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Pies will be available on a first come, first served basis the week of Christmas!</p>
+          <p>Happy 2022, we can't wait to see you in the shop!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>

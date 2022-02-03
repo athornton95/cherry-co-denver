@@ -107,55 +107,15 @@ export const data = {
       },
       price: "$27/full pie (pre-order only)"
     },
-    // {
-    //   title: "Nona’s Pumpkin Pie",
-    //   id: uuidv4(),
-    //   description: "Spiced pumpkin in our all butter crust topped with cinnamon whip.",
-    //   image: {
-    //     src: "./pies/pumpkin-pie.webp",
-    //     alt: "Nona’s Pumpkin Pie pie"
-    //   },
-    //   price: "$4/slice, $10/mini pie, $21/full pie"
-    // },
     {
-      title: "Peppermint Mocha French Silk",
+      title: "French Silk",
       id: uuidv4(),
-      description: "Our classic french silk with peppermint and coffee (decaf).",
-      // image: {
-      //   src: "./pies/french-silk-pie.webp",
-      //   alt: "French Silk pie"
-      // },
+      description: "Chocolate mousse pie with an Oreo butter crust.",
+      image: {
+        src: "./pies/french-silk-pie.webp",
+        alt: "French Silk pie"
+      },
       price: "$28/full pie, slices & mini pies available"
-    },
-    {
-      title: "Chocolate Pecan",
-      id: uuidv4(),
-      description: "Our classic apple honey pecan, with a black bottom ganache.",
-      // image: {
-      //   src: "./pies/pecan-pie.webp",
-      //   alt: "Maple Honey Pecan pie"
-      // },
-      price: "$30/full pie, slices & mini pies available"
-    },
-    {
-      title: "Malted Chocolate Chess",
-      id: uuidv4(),
-      description: "A southern favorite, like a gooey, chocolate malt brownie.",
-      // image: {
-      //   src: "./pies/pecan-pie.webp",
-      //   alt: "Maple Honey Pecan pie"
-      // },
-      price: "Slices & mini pies available"
-    },
-    {
-      title: "Cranberry Pear Ginger",
-      id: uuidv4(),
-      description: "Tangy and crisp, with our signature all butter double crust.",
-      // image: {
-      //   src: "./pies/pecan-pie.webp",
-      //   alt: "Maple Honey Pecan pie"
-      // },
-      price: "Slices & mini pies available"
     }
   ],
   savoryPies: [
