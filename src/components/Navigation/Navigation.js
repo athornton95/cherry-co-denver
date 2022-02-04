@@ -90,9 +90,9 @@ const SimpleModal = (props) => {
         <p >
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
-        {/* <p>
-          Please note: Pick up dates are December 21-24th <span className='emphasis'>in store only</span>. 
-        </p> */}
+        <p>
+          Please note: Pick up dates are February 12-14th <span className='emphasis'>in store only</span>. 
+        </p>
         <p>
           Questions or to order over the phone, call us at 303-635-6748. 
         </p>
