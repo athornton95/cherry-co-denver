@@ -96,7 +96,8 @@ export const data = {
         alt: "Key Lime pie"
       },
       price: "$12/mini pie",
-      additional: "*Seasonal Flavor!*"
+      additional: "*Seasonal Flavor!*",
+      preOrder: true
     },
     {
       title: "Coconut Cream",
