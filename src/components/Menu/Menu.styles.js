@@ -59,6 +59,7 @@ const styles = () => css`
       height: 250px;
       width: auto;
       border-radius: .5rem;
+      filter: drop-shadow(0.1rem .5rem .5rem rgba(0, 0, 0, 0.2));
     } 
   }
 

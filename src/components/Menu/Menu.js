@@ -21,7 +21,9 @@ const Menu = () => {
             {featuredPies && featuredPies.map(pie => {
               return (
                 <div key={pie.id} className='featured-item-wrapper'>
-                  {pie.image && pie.image.src && <img src={pie.image.src} alt={pie.image.alt} className='pie-image'/>}
+                  <div className='item-image-wrapper'>
+                    {pie.image && pie.image.src && <img src={pie.image.src} alt={pie.image.alt} className='pie-image'/>}
+                  </div>
                   {pie.title && <p className='title'>{pie.title}</p>}
                   {pie.description && <p className='description'>{pie.description}</p>}
                   {pie.price && <p className='price'>{pie.price}</p>}

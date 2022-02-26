@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>We're celebrating Pi Day and our Birthday, snag a pre-order or come by the shop for some birthday pie!</p>
+          <p>We're celebrating Pi Day and our Birthday, snag a preorder or come by the shop for some birthday pie!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
