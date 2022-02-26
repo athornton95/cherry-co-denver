@@ -53,15 +53,25 @@ const styles = () => css`
     font-size: 1.25rem;
   }
 
-  .grid-item-wrapper {
-    margin-bottom: 2rem;
+  .featured {
+    padding-bottom: 2rem;
+    .pie-image {
+      height: 250px;
+      width: auto;
+      border-radius: .5rem;
+    } 
   }
 
-  .pie-image {
-    height: 250px;
-    width: 250px;
-    animation: rotation 35s infinite linear;
-    filter: drop-shadow(0.1rem .5rem .5rem rgba(0, 0, 0, 0.2));
+  .grid-item-wrapper {
+    margin-bottom: 2rem;
+    position: relative;
+
+    .pie-image {
+      height: 250px;
+      width: 250px;
+      animation: rotation 35s infinite linear;
+      filter: drop-shadow(0.1rem .5rem .5rem rgba(0, 0, 0, 0.2));
+    }
   }
 
   .title {
@@ -86,6 +96,40 @@ const styles = () => css`
   .additional {
     color: #CF2634;
     font-size: .85rem;
+  }
+
+  .pre-order {
+    position: absolute;
+    top: .5rem;
+    left: 3.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
+
+    @media (min-width: 768px) {
+      left: 0;
+    }
+
+    &:after {
+      content: "";
+      top: 0;
+      left: 0;
+      background-color: #CF2634;
+      position: absolute;
+      height: 5.5rem;
+      width: 5.5rem;
+      z-index: 0;
+      border-radius: 50%;
+    }
+
+    p {
+      color: white;
+      position: relative;
+      z-index: 1;
+      top: .6rem;
+      max-width: 4rem;
+      margin: 0 auto;
+      font-weight: 600;
+    }
   }
 
   @keyframes rotation {

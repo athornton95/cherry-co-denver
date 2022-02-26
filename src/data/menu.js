@@ -1,6 +1,18 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
+  featuredPies: [
+    {
+      title: "Birthday Pie",
+      id: uuidv4(),
+      description: "Imagine a birthday cake, as a pie!",
+      image: {
+        src: "./pies/birthday-pie.webp",
+        alt: "Birthday pie"
+      },
+      price: "$11/mini pie, $25/full pie",
+    }
+  ],
   sweetPies: [
     {
       title: "Tart Cherry",
@@ -95,7 +107,7 @@ export const data = {
         alt: "Coconut Cream pie"
       },
       price: "$27/full pie",
-      additional: "*Pre-order only!*"
+      preOrder: true
     },
     {
       title: "Lemon Meringue",
@@ -105,7 +117,8 @@ export const data = {
         src: "./pies/lemon-meringue-pie.webp",
         alt: "Lemon Meringue pie"
       },
-      price: "$27/full pie (pre-order only)"
+      price: "$27/full pie",
+      preOrder: true
     },
     {
       title: "French Silk",

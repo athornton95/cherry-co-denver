@@ -4,7 +4,7 @@ import styles from './Menu.styles';
 import { data } from '../../data/menu';
 
 const Menu = () => {
-  const { sweetPies, savoryPies, beverages } = data;
+  const { sweetPies, savoryPies, beverages, featuredPies } = data;
   return (
     <div css={styles} id='menu'>
       <div className='container'>
@@ -14,11 +14,27 @@ const Menu = () => {
         <h3 className='menu-title'>Daily Menu</h3>
         <div className='menu-section'>
           <div className='menu-title-container'>
+            <p className='menu-subtitle'>Featured Pies</p>
+            <p className='menu-details'>New and exciting flavors coming soon!</p>
+          </div>
+          <div className='featured'>
+            {featuredPies && featuredPies.map(pie => {
+              return (
+                <div key={pie.id} className='featured-item-wrapper'>
+                  {pie.image && pie.image.src && <img src={pie.image.src} alt={pie.image.alt} className='pie-image'/>}
+                  {pie.title && <p className='title'>{pie.title}</p>}
+                  {pie.description && <p className='description'>{pie.description}</p>}
+                  {pie.price && <p className='price'>{pie.price}</p>}
+                </div>
+              )
+            })}
+          </div>
+          <div className='menu-title-container'>
             <p className='menu-subtitle'>Sweet Pies</p>
             <p className='menu-details'>Available Hot n' Ready, or for Take n' Bake</p>
           </div>
           <Grid container alignContent='center' alignItems='flex-start' spacing={4} className="grid-container">
-            {sweetPies.map(pie => {
+            {sweetPies && sweetPies.map(pie => {
               return (
                 <Grid key={pie.id} item xs={12} sm={6} md={4} className='grid-item-wrapper'>
                   {pie.image && pie.image.src && <img src={pie.image.src} alt={pie.image.alt} className='pie-image'/>}
@@ -26,6 +42,7 @@ const Menu = () => {
                   {pie.description && <p className='description'>{pie.description}</p>}
                   {pie.price && <p className='price'>{pie.price}</p>}
                   {pie.additional && <p className='additional'>{pie.additional}</p>}
+                  {pie.preOrder && <div className='pre-order'><p>Pre Order Only</p></div>}
                 </Grid>
               )
             })}
