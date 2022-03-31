@@ -1,18 +1,18 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
-  featuredPies: [
-    {
-      title: "Birthday Pie",
-      id: uuidv4(),
-      description: "Imagine a birthday cake, as a pie!",
-      image: {
-        src: "./pies/birthday-pie.webp",
-        alt: "Birthday pie"
-      },
-      price: "$11/mini pie, $25/full pie",
-    }
-  ],
+  // featuredPies: [
+  //   {
+  //     title: "Birthday Pie",
+  //     id: uuidv4(),
+  //     description: "Imagine a birthday cake, as a pie!",
+  //     image: {
+  //       src: "./pies/birthday-pie.webp",
+  //       alt: "Birthday pie"
+  //     },
+  //     price: "$11/mini pie, $25/full pie",
+  //   }
+  // ],
   sweetPies: [
     {
       title: "Tart Cherry",
@@ -177,12 +177,12 @@ export const data = {
     }
   ],
   beverages: [
-    {
-      title: "Piescream!",
-      id: uuidv4(),
-      description: "Pie milkshakes -- a slice of pie blended with ice cream!",
-      additional: "*Serving Highpoint Creamery ice cream a la mode with any slice of pie!*"
-    },
+    // {
+    //   title: "Piescream!",
+    //   id: uuidv4(),
+    //   description: "Pie milkshakes -- a slice of pie blended with ice cream!",
+    //   additional: "*Serving Highpoint Creamery ice cream a la mode with any slice of pie!*"
+    // },
     {
       title: "Full Espresso Bar",
       id: uuidv4(),

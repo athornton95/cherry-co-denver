@@ -86,12 +86,12 @@ const SimpleModal = (props) => {
             <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
           </svg>
         </div>
-        <p className='modal-title' id="simple-modal-title">Yay for Pi Day!</p>
-        <p >
+        <p className='modal-title' id="simple-modal-title">Yay Easter!</p>
+        <p>
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
         <p>
-          Please note: Pick up dates are March 12-14th <span className='emphasis'>in store only</span>. 
+          Please note: Pick up dates are April 15-17th <span className='emphasis'>in store only</span>. 
         </p>
         <p>
           Questions or to order over the phone, call us at 303-635-6748. 
@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Pi Day is March 14! Swing by the shop and celebrate with a slice!</p>
+          <p>Easter preorders are open! Celebrate with pie!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -147,9 +147,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                Pi Day Preorder
-              </button> */}
+              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+                Easter Preorder
+              </button>
             </div>
           </div>
         </div>
