@@ -95,7 +95,7 @@ export const data = {
         src: "./pies/key-lime-pie.webp",
         alt: "Key Lime pie"
       },
-      price: "$12/mini pie",
+      price: "$27/full pie",
       additional: "*Seasonal Flavor!*",
       preOrder: true
     },
