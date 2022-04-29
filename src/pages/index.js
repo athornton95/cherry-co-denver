@@ -10,6 +10,7 @@ const IndexPage = () => (
       <title>Colorado Cherry Co, Pie + Provisions</title>
       <meta name="keywords" content="pie shop, local pie, cherry pie, pie" />
       <meta name="description" content="Fourth generation neighborhood pie shop, located in Denver, CO." />
+      <meta name="facebook-domain-verification" content="rh7r5bkxc0d3m9gyzgxkzs0pqkhidm" />
       <link rel="canonical" href="https://coloradocherrycodenver.com/"/>
       <meta name="icon" href='../favicon.ico' />
     </Helmet>
