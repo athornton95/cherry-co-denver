@@ -91,7 +91,7 @@ const SimpleModal = (props) => {
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
         <p>
-          Please note: Pick up dates are April 15-17th <span className='emphasis'>in store only</span>. 
+          Please note: Pick up dates are May 6th-8th <span className='emphasis'>in store only</span>. 
         </p>
         <p>
           Questions or to order over the phone, call us at 303-635-6748. 
@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Spring has sprung, come celebrate with pie!</p>
+          <p>Mother's Day preorders are open</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -147,9 +147,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                Easter Preorder
-              </button> */}
+              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+                Mother's Day Preorder
+              </button>
             </div>
           </div>
         </div>
