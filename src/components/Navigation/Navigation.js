@@ -148,7 +148,7 @@ const Navigation = () => {
                 Events
               </Link>
               <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                July 4th Preorder
+                4th of July Preorder
               </button>
             </div>
           </div>
