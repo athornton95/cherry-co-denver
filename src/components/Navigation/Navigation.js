@@ -86,12 +86,12 @@ const SimpleModal = (props) => {
             <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
           </svg>
         </div>
-        <p className='modal-title' id="simple-modal-title">Yay Memorial Day!</p>
+        <p className='modal-title' id="simple-modal-title">Yay Independence Day!</p>
         <p>
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
         <p>
-          Please note: Pick up dates are May 27th-30th <span className='emphasis'>in store only</span>. 
+          Please note: Pick up dates are July 2-4 <span className='emphasis'>in store only</span>. 
         </p>
         <p>
           Questions or to order over the phone, call us at 303-635-6748. 
@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Memorial Day preorders are open!</p>
+          <p>What's the 4th of July without pie? Preorders are open!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -148,7 +148,7 @@ const Navigation = () => {
                 Events
               </Link>
               <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                Memorial Day Preorder
+                July 4th Preorder
               </button>
             </div>
           </div>
