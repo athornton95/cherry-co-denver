@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>What's the 4th of July without pie? Preorders are open!</p>
+          <p>Summer is in full swing! Come by for some pie!</p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -147,9 +147,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 4th of July Preorder
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
