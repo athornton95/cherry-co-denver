@@ -13,11 +13,11 @@ const Menu = () => {
         </div>
         <h3 className='menu-title'>Daily Menu</h3>
         <div className='menu-section'>
-          {/* <div className='menu-title-container'>
+          <div className='menu-title-container'>
             <p className='menu-subtitle'>Featured Pies</p>
             <p className='menu-details'>New and exciting flavors coming soon!</p>
-          </div> */}
-          {/* <div className='featured'>
+          </div>
+          <div className='featured'>
             {featuredPies && featuredPies.map(pie => {
               return (
                 <div key={pie.id} className='featured-item-wrapper'>
@@ -30,7 +30,7 @@ const Menu = () => {
                 </div>
               )
             })}
-          </div> */}
+          </div>
           <div className='menu-title-container'>
             <p className='menu-subtitle'>Sweet Pies</p>
             <p className='menu-details'>Available Hot n' Ready, or for Take n' Bake</p>

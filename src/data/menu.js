@@ -1,18 +1,18 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
-  // featuredPies: [
-  //   {
-  //     title: "Birthday Pie",
-  //     id: uuidv4(),
-  //     description: "Imagine a birthday cake, as a pie!",
-  //     image: {
-  //       src: "./pies/birthday-pie.webp",
-  //       alt: "Birthday pie"
-  //     },
-  //     price: "$11/mini pie, $25/full pie",
-  //   }
-  // ],
+  featuredPies: [
+    {
+      title: "Fall Three Pack",
+      id: uuidv4(),
+      description: "A seasonal assortment of fall flavored cutie pies! Includes one Pumpkin, one Apple Bourbon Caramel and one Maple Honey Pecan.",
+      image: {
+        src: "./pies/cutie-pies.webp",
+        alt: "Single serving pies"
+      },
+      price: "$19",
+    }
+  ],
   sweetPies: [
     {
       title: "Tart Cherry",
@@ -22,7 +22,7 @@ export const data = {
         src: "./pies/cherry-pie.webp",
         alt: "Tart Cherry pie"
       },
-      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie",
+      price: "$21/full pie, $10/mini pie, $4.25/hand pie, $4/slice,",
       additional: "*Vegan take and bake full size available!*"
     },
     {
@@ -33,7 +33,7 @@ export const data = {
         src: "./pies/cherry-pie-gf.webp",
         alt: "Gluten Free Tart Cherry pie"
       },
-      price: "$4.5/slice, $24/full pie",
+      price: "$24/full pie, $4.50/slice",
       additional: "*Gluten free slices available until sold out, full size take and bake available daily.*"
     },
     {
@@ -44,17 +44,29 @@ export const data = {
         src: "./pies/cherry-streusel-pie.webp",
         alt: "Cherry Streusel pie"
       },
-      price: "$4.5/slice, $23/full pie",
+      price: " $23/full pie, $11/mini pie, $4.50/slice",
     },
     {
-      title: "Mixed Berry",
+      title: "Pumpkin",
       id: uuidv4(),
-      description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
+      description: "Pumpkin filling with fall spices in our all butter crust.",
       image: {
-        src: "./pies/mixed-berry-pie.webp",
-        alt: "Mixed Berry pie"
+        src: "./pies/pumpkin-pie.webp",
+        alt: "Pumpkin pie"
       },
-      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"    
+      price: "$23/full pie, $12/mini pie, $6.50/cutie pie",
+      additional: "*Seasonal Flavor!*",
+    },
+    {
+      title: "Maple Honey Pecan",
+      id: uuidv4(),
+      description: "Maple, honey and pecan filling in our all butter crust.",
+      image: {
+        src: "./pies/pecan-pie.webp",
+        alt: "Maple Honey Pecan pie"
+      },
+      price: "$33/full pie, $12.50/mini pie, $7.50/cutie pie",
+      additional: "*Seasonal Flavor!*",
     },
     {
       title: "Classic Apple",
@@ -64,7 +76,17 @@ export const data = {
         src: "./pies/apple-pie.webp",
         alt: "Classic Apple pie"
       },
-      price: "$4.25/hand pie, $4/slice, $10/mini pie, $20/full pie"
+      price: "$21/full pie, $10/mini pie, $5.25/hand pie (Caramel Apple), $4/slice"
+    },
+    {
+      title: "Mixed Berry",
+      id: uuidv4(),
+      description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
+      image: {
+        src: "./pies/mixed-berry-pie.webp",
+        alt: "Mixed Berry pie"
+      },
+      price: "$23/full pie, $10/mini pie, $4.25/hand pie, $4/slice"    
     },
     {
       title: "Wild Blueberry",
@@ -74,7 +96,7 @@ export const data = {
         src: "./pies/blueberry-pie.webp",
         alt: "Wild Blueberry pie"
       },
-      price: "$10/mini pie, $20/full pie",
+      price: "$23/full pie, $10/mini pie",
       additional: "*Comes as a take and bake only. Preorder ahead for a freshly baked pie!*"
     },
     {
@@ -85,7 +107,7 @@ export const data = {
         src: "./pies/abc-pie.webp",
         alt: "Apple Bourbon Caramel pie"
       },
-      price: "$4.5/slice, $11/mini pie, $23/full pie"
+      price: "$23/full pie, $11/mini pie, $6.50/cutie pie, $4.50/slice,"
     },
     {
       title: "Key Lime",
@@ -129,7 +151,7 @@ export const data = {
         src: "./pies/french-silk-pie.webp",
         alt: "French Silk pie"
       },
-      price: "$28/full pie, slices & mini pies available"
+      price: "$27/full pie, $12/mini pie, $4.50/slice"
     }
   ],
   savoryPies: [
@@ -137,7 +159,7 @@ export const data = {
       title: "Old Fashioned Chicken",
       id: uuidv4(),
       description: "Red bird chicken in our rosemary sage sauce with celery, peas, carrots, and onions",
-      price: "$10/mini pie, $20/full pie",
+      price: "$20/full pie, $10/mini pie",
       additional: "*Hot and ready until sold out! Full size take n bake only, minis available as take and bake too!*"
     },
     {
@@ -151,14 +173,14 @@ export const data = {
       title: "Bison, Bacon, Mushroom & Stout",
       id: uuidv4(),
       description: "All cooked in our house stout sauce made with Founder’s beer",
-      price: "$11/mini pie",
+      price: "$12/mini pie",
       additional: "*Hot and ready until sold out! Minis available as take and bake too!*"
     },
     {
       title: "Post Oak Pork Green Chili",
       id: uuidv4(),
       description: "Smoked pork from our neighbors with roasted green chilis, spices, tomatoes, & onions",
-      price: "$10/mini pie",
+      price: "$6.50/hand pie",
       additional: "*Hot and ready until sold out! Minis available as take and bake too!*"
     },
     {

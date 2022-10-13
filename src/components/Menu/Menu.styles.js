@@ -61,6 +61,13 @@ const styles = () => css`
       border-radius: .5rem;
       filter: drop-shadow(0.1rem .5rem .5rem rgba(0, 0, 0, 0.2));
     } 
+
+    .description {
+      @media(min-width: 720px) {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
   }
 
   .grid-item-wrapper {
