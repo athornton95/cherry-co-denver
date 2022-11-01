@@ -130,7 +130,17 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Thanksgiving pie preorders are open! Get them while they're hot!</p>
+          <p>Legacy Pie Co: the next generation of Colorado Cherry Company!
+          <span className='span-link'>
+            <Link
+              target='blank'
+              rel="noopener noreferrer"
+              to="https://mainvest.com/in/legacy-pie-co"
+            >
+              Learn more.
+            </Link>
+          </span>
+          </p>
         </div>
         <div className='nav-container'>
           <div className='nav'>
@@ -140,6 +150,13 @@ const Navigation = () => {
             <div className='nav-links'>
               <Link className='nav-link' to="/#menu">
                 Menu
+              </Link>
+              <Link
+                className='nav-link'
+                target='blank'
+                rel="noopener noreferrer"
+                to="https://mainvest.com/in/legacy-pie-co">
+                Big News!
               </Link>
               <Link className='nav-link' to="/#about">
                 About Us

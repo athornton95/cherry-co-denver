@@ -44,6 +44,19 @@ const styles = () => css`
     }
   }
 
+  .span-link {
+    margin-left: .5rem;
+    a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    a:hover {
+      border-bottom: 1px solid white;
+    }
+  }
+
   .nav-link {
     @media (max-width: 600px) {
       display: none;
