@@ -130,8 +130,8 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Legacy Pie Co: the next generation of Colorado Cherry Company!
-          <span className='span-link'>
+          <p>Thanksgiving preorders are closed! Pies are first come first serve until after Thanksgiving!
+          {/* <span className='span-link'>
             <Link
               target='blank'
               rel="noopener noreferrer"
@@ -139,7 +139,7 @@ const Navigation = () => {
             >
               Learn more.
             </Link>
-          </span>
+          </span> */}
           </p>
         </div>
         <div className='nav-container'>
@@ -164,9 +164,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 Thanksgiving Preorder
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
