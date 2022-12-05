@@ -24,9 +24,9 @@ const styles = () => css`
   }
 
   .nav-container {
-    // @media (max-width: 720px) {
-    //   padding: 1rem 2rem;
-    // }
+    @media (max-width: 720px) {
+      padding: 1rem 2rem;
+    }
     padding: 0 2rem;
     box-shadow: none;
   }

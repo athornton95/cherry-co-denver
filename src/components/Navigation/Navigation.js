@@ -86,12 +86,12 @@ const SimpleModal = (props) => {
             <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
           </svg>
         </div>
-        <p className='modal-title' id="simple-modal-title">Thanksgiving is around the corner!</p>
+        <p className='modal-title' id="simple-modal-title">Christmas is around the corner!</p>
         <p>
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
         <p>
-          Please note: Pick up dates are November 19-23 <span className='emphasis'>in store only</span>. 
+          Please note: Pick up dates are December 20-24 <span className='emphasis'>in store only</span>. 
         </p>
         <p>
           Questions or to order over the phone, call us at 303-635-6748. 
@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Thanksgiving preorders are closed! Pies are first come first serve until after Thanksgiving!
+          <p>Christmas preorders are open! Get them while they're hot!
           {/* <span className='span-link'>
             <Link
               target='blank'
@@ -164,9 +164,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
-                Thanksgiving Preorder
-              </button> */}
+              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+                Christmas Preorder
+              </button>
             </div>
           </div>
         </div>
