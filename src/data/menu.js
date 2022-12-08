@@ -47,25 +47,14 @@ export const data = {
       price: " $23/full pie, $11/mini pie, $4.50/slice",
     },
     {
-      title: "Pumpkin",
+      title: "Pumpkin with Marshmallow Meringue",
       id: uuidv4(),
-      description: "Pumpkin filling with fall spices in our all butter crust.",
+      description: "Pumpkin filling with fall spices topped with toasted marshmallow in our all butter crust.",
       image: {
-        src: "./pies/pumpkin-pie.webp",
+        src: "./pies/pumpkin-meringue-pie.webp",
         alt: "Pumpkin pie"
       },
-      price: "$23/full pie, $12/mini pie, $6.50/cutie pie",
-      additional: "*Seasonal Flavor!*",
-    },
-    {
-      title: "Maple Honey Pecan",
-      id: uuidv4(),
-      description: "Maple, honey and pecan filling in our all butter crust.",
-      image: {
-        src: "./pies/pecan-pie.webp",
-        alt: "Maple Honey Pecan pie"
-      },
-      price: "$33/full pie, $12.50/mini pie, $7.50/cutie pie",
+      price: "$24/full pie, $11/mini pie",
       additional: "*Seasonal Flavor!*",
     },
     {
@@ -77,6 +66,17 @@ export const data = {
         alt: "Classic Apple pie"
       },
       price: "$21/full pie, $10/mini pie, $5.25/hand pie (Caramel Apple), $4/slice"
+    },
+    {
+      title: "Peppermint Mocha French Silk",
+      id: uuidv4(),
+      description: "Chocolate and peppermint mousse pie with an Oreo butter crust, topped with peppermint candy pieces.",
+      image: {
+        src: "./pies/french-silk-pie.webp",
+        alt: "French Silk pie"
+      },
+      price: "$27/full pie, $12/mini pie",
+      additional: "*Seasonal Flavor!*",
     },
     {
       title: "Mixed Berry",
@@ -108,6 +108,28 @@ export const data = {
         alt: "Apple Bourbon Caramel pie"
       },
       price: "$23/full pie, $11/mini pie, $6.50/cutie pie, $4.50/slice,"
+    },
+    {
+      title: "Cranberry Pear Ginger",
+      id: uuidv4(),
+      description: "Fresh pears and cranberries simmered with ginger in our all butter crust.",
+      // image: {
+      //   src: "./pies/pecan-pie.webp",
+      //   alt: "Maple Honey Pecan pie"
+      // },
+      price: "$25/full pie, $11/mini pie",
+      additional: "*Seasonal Flavor!*",
+    },
+    {
+      title: "Chocolate Chess",
+      id: uuidv4(),
+      description: "Rich fudgy filling in our all butter crust.",
+      // image: {
+      //   src: "./pies/pecan-pie.webp",
+      //   alt: "Maple Honey Pecan pie"
+      // },
+      price: "$21/full pie, $10/mini pie",
+      additional: "*Seasonal Flavor!*",
     },
     {
       title: "Key Lime",
@@ -143,24 +165,21 @@ export const data = {
       price: "$27/full pie",
       preOrder: true
     },
-    {
-      title: "French Silk",
-      id: uuidv4(),
-      description: "Chocolate mousse pie with an Oreo butter crust.",
-      image: {
-        src: "./pies/french-silk-pie.webp",
-        alt: "French Silk pie"
-      },
-      price: "$27/full pie, $12/mini pie, $4.50/slice"
-    }
   ],
   savoryPies: [
     {
       title: "Old Fashioned Chicken",
       id: uuidv4(),
       description: "Red bird chicken in our rosemary sage sauce with celery, peas, carrots, and onions",
-      price: "$20/full pie, $10/mini pie",
+      price: "$23/full pie, $10/mini pie",
       additional: "*Hot and ready until sold out! Full size take n bake only, minis available as take and bake too!*"
+    },
+    {
+      title: "Gluten Free Old Fashioned Chicken",
+      id: uuidv4(),
+      description: "Red bird chicken in our rosemary sage sauce with celery, peas, carrots, and onions",
+      price: "$23/full pie",
+      additional: "*Take n bake only*"
     },
     {
       title: "Mushroom & Veggie",
