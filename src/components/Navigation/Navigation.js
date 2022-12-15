@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Christmas preorders are open! Get them while they're hot!
+          <p>Christmas is around the corner, pies are first come first serve!
           {/* <span className='span-link'>
             <Link
               target='blank'
@@ -164,9 +164,9 @@ const Navigation = () => {
               <Link className='nav-link' to="/#events">
                 Events
               </Link>
-              <button className='btn btn-white order' type="button" onClick={handleOpen}>
+              {/* <button className='btn btn-white order' type="button" onClick={handleOpen}>
                 Christmas Preorder
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

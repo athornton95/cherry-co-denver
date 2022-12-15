@@ -3,9 +3,9 @@ import { v4 as uuidv4 } from 'uuid';
 export const data = {
   featuredPies: [
     {
-      title: "Fall Three Pack",
+      title: "Winter Three Pack",
       id: uuidv4(),
-      description: "A seasonal assortment of fall flavored cutie pies! Includes one Pumpkin, one Apple Bourbon Caramel and one Maple Honey Pecan.",
+      description: "A seasonal assortment of fall flavored cutie pies! Includes choices of Cranberry, Pear, Ginger, Chocolate Chess, Pumpkin Meringue, Cherry Streusel, and Apple Bourbon Caramel.",
       image: {
         src: "./pies/cutie-pies.webp",
         alt: "Single serving pies"
@@ -79,6 +79,38 @@ export const data = {
       additional: "*Seasonal Flavor!*",
     },
     {
+      title: "Apple Bourbon Caramel",
+      id: uuidv4(),
+      description: "Brown sugar apples topped with bourbon caramel oat crumble.",
+      image: {
+        src: "./pies/abc-pie.webp",
+        alt: "Apple Bourbon Caramel pie"
+      },
+      price: "$23/full pie, $11/mini pie, $6.50/cutie pie, $4.50/slice,"
+    },
+    {
+      title: "Cranberry Pear Ginger",
+      id: uuidv4(),
+      description: "Fresh pears and cranberries simmered with ginger in our all butter crust.",
+      image: {
+        src: "./pies/pear-ginger-pie.webp",
+        alt: "Cranberry Pear Ginger pie"
+      },
+      price: "$25/full pie, $11/mini pie",
+      additional: "*Seasonal Flavor!*",
+    },
+    {
+      title: "Chocolate Chess",
+      id: uuidv4(),
+      description: "Rich fudgy filling in our all butter crust.",
+      image: {
+        src: "./pies/chocolate-chess-pie.webp",
+        alt: "Chocolate Chess pie"
+      },
+      price: "$21/full pie, $10/mini pie",
+      additional: "*Seasonal Flavor!*",
+    },
+    {
       title: "Mixed Berry",
       id: uuidv4(),
       description: "Blueberries, blackberries, strawberries, and raspberries in our all butter crust.",
@@ -98,38 +130,6 @@ export const data = {
       },
       price: "$23/full pie, $10/mini pie",
       additional: "*Comes as a take and bake only. Preorder ahead for a freshly baked pie!*"
-    },
-    {
-      title: "Apple Bourbon Caramel",
-      id: uuidv4(),
-      description: "Brown sugar apples topped with bourbon caramel oat crumble.",
-      image: {
-        src: "./pies/abc-pie.webp",
-        alt: "Apple Bourbon Caramel pie"
-      },
-      price: "$23/full pie, $11/mini pie, $6.50/cutie pie, $4.50/slice,"
-    },
-    {
-      title: "Cranberry Pear Ginger",
-      id: uuidv4(),
-      description: "Fresh pears and cranberries simmered with ginger in our all butter crust.",
-      // image: {
-      //   src: "./pies/pecan-pie.webp",
-      //   alt: "Maple Honey Pecan pie"
-      // },
-      price: "$25/full pie, $11/mini pie",
-      additional: "*Seasonal Flavor!*",
-    },
-    {
-      title: "Chocolate Chess",
-      id: uuidv4(),
-      description: "Rich fudgy filling in our all butter crust.",
-      // image: {
-      //   src: "./pies/pecan-pie.webp",
-      //   alt: "Maple Honey Pecan pie"
-      // },
-      price: "$21/full pie, $10/mini pie",
-      additional: "*Seasonal Flavor!*",
     },
     {
       title: "Key Lime",
