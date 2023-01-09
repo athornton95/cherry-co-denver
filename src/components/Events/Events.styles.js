@@ -15,6 +15,12 @@ const styles = () => css`
         margin-bottom: 1rem;
       }
 
+      &.remodel {
+        @media (max-width: 720px) {
+          font-size: 4.25rem;
+        }
+      }
+
       @media (min-width: 1024px) {
         font-size: 7rem;
       }

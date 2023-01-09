@@ -5,7 +5,7 @@ const PlaceHolder = () => {
   return (
     <section css={styles}>
       <div className='section-header'>
-        <h3 className='title' style={{ fontSize: '4.25rem' }}>We're Remodeling!</h3>
+        <h3 className='title remodel'>We're Remodeling!</h3>
         <p className='description'>We couldn’t be more excited for 2023! Our bakery is undergoing a remodel; we are expanding our kitchen production space so we can make more pies for you! <br /> We hope to be complete by early spring/late winter.</p>
       </div>
       <div className='section-body'>
