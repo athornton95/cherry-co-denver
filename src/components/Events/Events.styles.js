@@ -26,7 +26,7 @@ const styles = () => css`
 
     .description {
       font-size: 1.75rem;
-      text-transform: uppercase;
+      // text-transform: uppercase;
     }
   }
   
@@ -48,6 +48,14 @@ const styles = () => css`
 
     .additional {
       color: #CF2634;
+    }
+
+    .important {
+      background-color: #CF2634;
+      color: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      font-size: 1.25rem;
     }
 
     .contact-block {

@@ -130,7 +130,7 @@ const Navigation = () => {
     <>
       <div css={styles} id="nav">
         <div className='nav-secondary'>
-          <p>Christmas is around the corner, pies are first come first serve!
+          <p>Window pop ups at our shop during kitchen remodel, more info below!
           {/* <span className='span-link'>
             <Link
               target='blank'

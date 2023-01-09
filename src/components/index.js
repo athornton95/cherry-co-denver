@@ -9,5 +9,6 @@ export { default as Hero } from './Hero/Hero';
 export { default as ImageBanner } from './ImageBanner/ImageBanner';
 export { default as Layout } from './Layout/Layout';
 export { default as Navigation } from './Navigation/Navigation';
+export { default as PlaceHolder } from './PlaceHolder/PlaceHolder';
 export { default as SideBySide } from './SideBySide/SideBySide';
 export { default as SignUpForm } from './SignUpForm/SignUpForm';
