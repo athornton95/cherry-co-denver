@@ -86,7 +86,7 @@ const SimpleModal = (props) => {
             <path d="M68.039 36.205l-4.242-4.243L50 45.757 36.203 31.961l-4.242 4.244L45.757 50 31.961 63.795l4.242 4.243L50 54.243l13.797 13.796 4.242-4.244L54.243 50z"/>
           </svg>
         </div>
-        <p className='modal-title' id="simple-modal-title">Preorders are open while we're renovating!</p>
+        <p className='modal-title' id="simple-modal-title">Preorders are open!</p>
         <p>
           To preorder pies, click the button below and you will be directed to our ordering platform for in store pick up. 
         </p>
