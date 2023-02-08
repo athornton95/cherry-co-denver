@@ -13,7 +13,7 @@ const Footer = ({ padding }) => {
         <div className='details'>
           <p>4000 Tennyson St Suite 100, Denver, CO 80212</p>
           <p>(303) 635-6748</p>
-          <p>Open Sunday - Thursday from 8am-8pm, Friday - Saturday from 8am-9pm</p>
+          {/* <p>Open Sunday - Thursday from 8am-8pm, Friday - Saturday from 8am-9pm</p> */}
         </div>
         <div className='social'>
           <a href="https://www.instagram.com/coloradocherrycompany/" target='_blank' rel="noopener noreferrer">
