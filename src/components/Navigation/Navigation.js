@@ -97,7 +97,7 @@ const SimpleModal = (props) => {
           Questions or to order over the phone, call us at 303-635-6748. 
         </p>
         <div className='button-grid'>
-          <a href="https://pos.toasttab.com/legacypieco" target='_blank' rel="noopener noreferrer" className='btn btn-cta'>
+          <a href="https://www.toasttab.com/legacypieco/v3" target='_blank' rel="noopener noreferrer" className='btn btn-cta'>
             Preorder Now
           </a>
         </div>
