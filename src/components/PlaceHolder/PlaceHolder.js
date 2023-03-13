@@ -14,7 +14,7 @@ const PlaceHolder = () => {
           <span><a style={{ textDecoration: 'none', color: '#CF2634', marginRight: '6px', borderBottom: '1px solid #CF2634', fontWeight: 'bold' }} rel='noreferrer' target='_blank' href='https://www.denverpost.com/2022/12/01/colorado-cherry-pie-company/'>Read more here</a></span>from the Denver Post.
         </p>
         <div className='important'>
-          During construction, we will be open <strong>Wednesday - Sunday 9am - 5pm (or until sold out)</strong> with service from our front window. We are baking from a commissary kitchen and will have a limited menu during the pop that we will constantly update on our social media! We will also have our full espresso machine! 
+          Follow us on Instagram for updated hours as our construction remodel work comes to a close. 
         </div>
         <div className='additional' style={{ color: 'black', fontSize: '1.1rem' }}>
           Feel free to call us at 3036356748 to learn more and see what we have left in stock. Stay tuned for our weekly online preorders coming soon! 
